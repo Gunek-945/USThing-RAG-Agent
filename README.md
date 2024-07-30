@@ -35,3 +35,17 @@ With the virtual environment active, you can install the [requirements.txt](http
    ```
 
 This will install all the packages listed in the `requirements.txt` file into your virtual environment.
+
+### Enter necessary API keys
+
+Create a `.env` file with the following variables:
+```
+PINECONE_API_KEY = [ENTER YOUR PINECONE API KEY HERE]
+PINECONE_API_ENV = [ENTER YOUR PINECONE API ENVIRONMENT HERE]
+```
+
+Add your Groq API key while loading the llm in the program-
+
+```
+llm = ChatGroq(temperature=0.2, groq_api_key="GROQ_API_KEY", model="llama3-70b-8192")
+```
