@@ -10,7 +10,6 @@ from langchain_community.vectorstores import Pinecone
 from langchain_core.output_parsers import StrOutputParser
 from langchain_pinecone import PineconeVectorStore
 
-# GROQ_API_KEY = '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'
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_API_ENV = os.getenv("PINECONE_API_ENV")
 
