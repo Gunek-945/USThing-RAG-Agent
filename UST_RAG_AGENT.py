@@ -37,7 +37,7 @@ Question: {question}
 prompt = ChatPromptTemplate.from_template(template)
 
 # LLM Chain
-llm = ChatGroq(temperature=0.2, groq_api_key="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", model="llama3-70b-8192")
+llm = ChatGroq(temperature=0.2, groq_api_key="GROQ_API", model="llama3-70b-8192")
 
 loader = TextLoader('academic_regulations.txt', encoding='utf-8')
 text_documents = loader.load()
