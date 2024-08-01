@@ -36,12 +36,23 @@ Question: {question}
 prompt = ChatPromptTemplate.from_template(template)
 
 # LLM Chain
-llm = ChatGroq(temperature=0.2, groq_api_key="GROQ_API", model="llama3-70b-8192")
+llm = ChatGroq(temperature=0.2, groq_api_key="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", model="llama3-70b-8192")
 
-loader = TextLoader('academic_regulations.txt', encoding='utf-8')
-text_documents = loader.load()
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20)
-documents = text_splitter.split_documents(text_documents)
+def load_and_split_documents(file_paths):
+    documents = []
+    for file_path in file_paths:
+        loader = TextLoader(file_path, encoding='utf-8')
+        text_documents = loader.load()
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20)
+        documents.extend(text_splitter.split_documents(text_documents))
+    return documents
+
+file_paths = [
+    'Academic regulations.txt',
+    'student_organizations.txt'
+]
+
+documents = load_and_split_documents(file_paths)
 
 embeddings = HuggingFaceEmbeddings()
 
@@ -56,8 +67,6 @@ rag_chain = prompt | llm | StrOutputParser()
 humour_score = int(input("Enter humour score (0-10): "))
 rudeness_score = int(input("Enter rudeness score (0-10): "))
 flirtiness_score  = int(input("Enter flirtiness score (0-10): "))
-
-
 
 with open("responses.txt", "a") as f:
     while True:
