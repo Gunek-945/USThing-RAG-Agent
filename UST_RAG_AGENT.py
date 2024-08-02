@@ -79,7 +79,9 @@ with open("responses.txt", "a") as f:
         generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": humour_score, "rudeness": rudeness_score, "flirtiness": flirtiness_score})
         end_time = time.time()
         response_time = end_time - start_time
-
+        f.write(f"{humour_score}\n")
+        f.write(f"{rudeness_score}\n")
+        f.write(f"{flirtiness_score}\n")
         f.write(f"User: {user_input}\n")
         f.write(f"Assistant: {generation}\n")
         f.write(f"Response time: {response_time:.2f} seconds\n\n")
