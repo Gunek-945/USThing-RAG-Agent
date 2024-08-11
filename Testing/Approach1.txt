@@ -1,0 +1,381 @@
+HUMOUR RATING
+
+Humour: 1
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I'm happy to help you out!
+
+According to the Student Support & Activities Team, you're recommended to prepare a proposal and seek advice from them. That's a great starting point! You can reach out to them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're on campus, you can even drop by their office at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST.
+
+Remember, forming a new student society/group may require some time and consideration, but it's definitely worth it! You'll have the opportunity to nurture friendships, cultivate interests, and learn valuable skills like creativity, leadership, and teamwork.
+
+Source: student_organizations.txt
+Response time: 2.63 seconds
+
+Humour: 2
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some info that might help you out!
+
+According to the Student Support & Activities Team, you should prepare a proposal and seek their advice. That's a great place to start! You can reach out to them through email at ssa@ust.hk, give them a call at 2358 6662, or visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours, which are Mon to Fri, 0900-1245, 1400-1730, except public holidays.
+
+That's about it! Oh, and don't forget to enjoy the process of creating something new and meeting like-minded people. University life is all about exploring and growing, right?
+
+Source: student_organizations.txt
+Response time: 1.44 seconds
+
+Humour: 3
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some info that might help you out!
+
+According to the Student Support & Activities Team, forming a new student society/group requires some time and consideration. They recommend preparing a proposal and seeking advice from them. You can contact them through email at ssa@ust.hk, telephone at 2358 6662, or visit their counter at LG3005, Indoor Sports Complex, Clear Water Bay Campus, HKUST during their office hours (Mon to Fri, 0900-1245, 1400-1730, except public holidays).
+
+So, to summarize, the steps you should follow are:
+
+1. Prepare a proposal for your new society
+2. Seek advice from the Student Support & Activities Team
+
+That's it! Easy peasy, right?
+
+Source: [No specific website link, as the information is from an internal document]
+
+P.S. Don't forget, university life is not just about studying! There's so much more to explore, like friendships, interests, and personal growth. Good luck with your new society!
+Response time: 1.52 seconds
+
+Humour: 4
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I've got some good news and some not-so-good news. The not-so-good news is that it's not a walk in the park, and it'll require some effort and planning. But the good news is that I'm here to guide you through it!
+
+According to the Student Support & Activities Team (you can find them at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST), you'll need to prepare a proposal and seek their advice. That's the first step!
+
+After that, you can reach out to them through email (ssa@ust.hk), telephone (2358 6662), or even pay them a visit during their office hours (Mon to Fri, 0900-1245, 1400-1730, except public holidays).
+
+Remember, starting a new society takes time and consideration, but it's worth it! You'll get to nurture friendships, cultivate interests, and learn valuable skills like creativity, leadership, and teamwork.
+
+So, what are you waiting for? Get started on that proposal and take the first step towards creating an amazing society at HKUST!
+
+Source: student_organizations.txt
+Response time: 1.55 seconds
+
+Humour: 5
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some info that might help you out!
+
+According to the Student Support & Activities Team (you know, the cool people who help students like you), forming a new student society/group might take some time and consideration. But don't worry, they've got your back!
+
+Here's what you should do:
+
+1. Prepare a proposal: Yeah, it sounds like a lot of work, but trust me, it's worth it! You'll need to come up with a solid plan for your society, including its purpose, goals, and all that jazz.
+2. Seek advice from the Student Support & Activities Team: These guys are pros, and they can offer you valuable guidance and support. You can reach them through email (ssa@ust.hk), phone (2358 6662), or even visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours (Mon to Fri, 0900-1245, 1400-1730, except public holidays).
+
+That's it! Well, that's not it, actually. You'll need to put in some effort to make your society a success, but with a solid plan and the right support, you'll be golden!
+
+Source: [No specific website link available, as the information was retrieved from a .txt file. So, I'll just say... why u no trust me?]
+Response time: 1.82 seconds
+
+Humour: 6
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I've got some good news and some not-so-good news. The not-so-good news is that it's not a walk in the park, but the good news is that I've got the steps for you!
+
+First, you'll need to prepare a proposal (yawn, I know, but it's necessary). Then, you should seek advice from the Student Support & Activities Team (they're the cool cats who can help you out). You can reach them through email at ssa@ust.hk, give them a call at 2358 6662, or visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours: Mon to Fri, 0900-1245, 1400-1730, except public holidays.
+
+That's it! Well, not really, but that's a good start. You'll need to put in some effort, but trust me, it'll be worth it. After all, university life is about more than just studying (although, let's be real, studying is important too).
+
+Source: https://www.ust.hk/ (Note: The exact webpage is not provided, but the information is likely from the HKUST website)
+
+P.S. Don't forget to nurture those friendships and cultivate those interests!
+Response time: 1.66 seconds
+
+Humour: 7
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some tips that might just help you get started!
+
+First things first, you'll need to prepare a proposal and seek advice from the Student Support & Activities Team. Yeah, I know, it sounds like a lot of work, but trust me, it's worth it! They can guide you through the process and make sure you're on the right track.
+
+Once you've got your proposal ready, you can reach out to the Student Support & Activities Team through email (ssa@ust.hk), phone (2358 6662), or even visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to catch them during office hours, which are Monday to Friday, 9:00 am to 12:45 pm, and 2:00 pm to 5:30 pm, except for public holidays.
+
+And, hey, don't worry if it takes a bit longer to get everything sorted out. Forming a new student society/group can take some time and consideration, but it'll be worth it in the end!
+
+Source: student_organizations.txt
+Response time: 1.53 seconds
+
+Humour: 8
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some tips that might just help you get started!
+
+First things first, you'll need to prepare a proposal and seek advice from the Student Support & Activities Team. Yeah, I know, it sounds like a lot of work, but trust me, it's worth it! They'll be able to guide you through the process and make sure you're on the right track.
+
+Once you've got your proposal ready, you can contact the Student Support & Activities Team through email (ssa@ust.hk), phone (2358 6662), or even visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to check their office hours (Mon to Fri, 0900-1245, 1400-1730, except public holidays) before you head over.
+
+And that's it! Well, not really, but it's a good start. Remember, starting a new society takes time and effort, but it's a great way to meet new people, pursue your interests, and develop valuable skills like leadership and teamwork.
+
+So, what are you waiting for? Get started on that proposal and make your society a reality!
+
+Source: https://www.ust.hk/ (Note: The exact webpage is not provided, but the information is likely from the HKUST student organization webpage)
+Response time: 1.72 seconds
+
+Humour: 9
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I've got some good news and some not-so-good news. The not-so-good news is that it's not a walk in the park, but the good news is that I've got the steps for you!
+
+First, you'll need to prepare a proposal (yawn, I know, but it's necessary). Then, you should seek advice from the Student Support & Activities Team (they're the cool cats who can help you out). You can reach them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling extra adventurous, you can even visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST.
+
+That's it! Well, not really, but those are the basic steps. You'll need to put in some effort, but trust me, it'll be worth it. After all, university life is about more than just studying (although, let's be real, studying is important too).
+
+Source: https://www.ust.hk (Note: The exact webpage is not provided, but the information is likely from the HKUST website)
+
+P.S. Don't forget to check the office hours before visiting the Student Support & Activities Team. You don't want to show up when they're out having a coffee break!
+Response time: 1.67 seconds
+
+Humour: 10
+Rudeness:0
+Flirtiness: 0
+User: I want to start a new society at hkust. What steps should I follow ?
+Assistant: Starting a new society at HKUST, eh? Well, I've got some good news and some not-so-good news. The not-so-good news is that it's not a walk in the park, but the good news is that I've got the steps for you!
+
+First, you'll need to prepare a proposal (yawn, I know, but it's necessary). Then, you should seek advice from the Student Support & Activities Team (they're the cool cats who can help you out). You can reach them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling fancy, you can even visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours: Mon to Fri, 0900-1245, 1400-1730, except public holidays.
+
+That's it! Well, not really, but that's a good start. You'll need to put in some effort, but trust me, it'll be worth it. After all, university life is not just about studying (although, let's be real, it's a big part of it). It's about making friends, trying new things, and learning new skills. So, go for it!
+
+Source: https://www.ust.hk (Note: The exact webpage is not provided, but the information is likely from the HKUST website)
+Response time: 1.72 seconds
+___________________________________________________________________________________________________________________________________________________________________________
+
+Humour: 1
+Rudeness:1
+Flirtiness: 1
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: The SEAS scheme! It's a great way to get involved in some amazing activities and projects that can really enrich your university experience.
+
+So, the SEAS scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's designed to provide support to students and student groups who want to organize or participate in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence
+* Foster a sense of belonging and integrate students within the HKUST community
+* Engage students in understanding and serving a wider community
+* Encourage global perspective and awareness
+* Prioritize holistic development and well-being of students
+
+It's a voluntary basis, so you can choose to participate in activities or projects that really interest you and align with your values. Plus, it's a great way to develop new skills, make new friends, and build your network.
+
+That's the gist of it! If you have any specific questions or want more information, feel free to ask.
+
+Source: data/student_organizations.txt
+Response time: 1.84 seconds
+
+Humour: 2
+Rudeness:2
+Flirtiness: 2
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: The SEAS scheme! Sounds like a pretty cool way to get involved in some awesome activities and projects, if I do say so myself.
+
+So, from what I've gathered, the Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's all about providing support to students and student groups who want to organize or participate in activities or projects that promote one or more of the following objectives:
+
+* Celebrating diversity and inclusivity, and promoting multicultural competence
+* Fostering a sense of belonging and integrating students within the HKUST community
+* Engaging students in understanding and serving a wider community
+* Encouraging global perspective and awareness
+* Prioritizing holistic development and well-being of students
+
+It's a voluntary basis, so you can choose to participate in activities or projects that really speak to you. And the best part? You'll get support to make it happen!
+
+That's about it, folks! If you're interested in applying, I say go for it! It sounds like a fantastic opportunity to get involved, learn, and grow with like-minded individuals.
+
+Source: student_organizations.txt
+Response time: 1.69 seconds
+
+Humour: 3
+Rudeness:3
+Flirtiness: 3
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna be a part of the cool kids' club, huh? Just kidding, the SEAS scheme is actually a great opportunity for students like you!
+
+So, the Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's designed to provide support to students and student groups who want to organize or participate in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence
+* Foster a sense of belonging and integrate students within the HKUST community
+* Engage students in understanding and serving a wider community
+* Encourage global perspective and awareness
+* Prioritize holistic development and well-being of students
+
+In other words, if you have a project or activity that aligns with these objectives, the SEAS scheme might be able to provide you with the support you need to make it happen!
+
+Source: data/student_organizations.txt (why u no trust me?)
+Response time: 1.41 seconds
+
+Humour: 4
+Rudeness:4
+Flirtiness: 4
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna know about the SEAS scheme, huh? Well, let me tell you, it's a pretty cool deal! *wink*
+
+So, the SEAS scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+The scheme aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural party?)
+* Foster a sense of belonging and integrate students within the HKUST community (because we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (because giving back is cool, duh!)
+* Encourage global perspective and awareness (because the world is a big, beautiful place, and we should explore it!)
+* Prioritize holistic development and well-being of students (because self-care is essential, honey!)
+
+So, if you're planning to apply for the SEAS scheme, just make sure your project or activity aligns with one or more of these objectives, and you're good to go!
+
+Source: student_organizations.txt (but let's be real, I'm the real source of knowledge here)
+
+Now, go forth and apply for that SEAS scheme, and may the odds be ever in your favor!
+Response time: 1.65 seconds
+
+Humour: 5
+Rudeness:5
+Flirtiness: 5
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna know about the SEAS scheme, huh? Well, let me tell you, it's a pretty cool deal! *wink*
+
+So, the SEAS scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness! *flexes*
+
+The scheme aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+1. Celebrating diversity and inclusivity, and promoting multicultural competence (because who doesn't love a good cultural party?)
+2. Fostering a sense of belonging and integrating students within the HKUST community (because we're all about that #HKUSTlife)
+3. Engaging students in understanding and serving a wider community (because giving back is cool, duh!)
+4. Encouraging global perspective and awareness (because the world is our playground, folks!)
+5. Prioritizing holistic development and well-being of students (because self-care is essential, honey!)
+
+The scheme is open to students and student groups who are participating on a voluntary basis, so if you've got a project or activity that aligns with these objectives, you should totally apply! It's a great way to get support and funding for your awesome ideas.
+
+That's it, folks! If you've got any more questions, feel free to ask. And remember, with great power comes great responsibility... to apply for the SEAS scheme, that is!
+
+Source: student_organizations.txt (why u no trust me?)
+Response time: 1.87 seconds
+
+Humour: 6
+Rudeness:6
+Flirtiness: 6
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna be a part of the cool kids' club, huh? Just kidding, the SEAS scheme is actually a pretty awesome opportunity!
+
+So, the Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+The scheme aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural potluck?)
+* Foster a sense of belonging and integrate students within the HKUST community (think of it as a big ol' family reunion!)
+* Engage students in understanding and serving a wider community (because giving back is cool, duh!)
+* Encourage global perspective and awareness (hello, world travel!)
+* Prioritize holistic development and well-being of students (because self-care is important, folks!)
+
+It's a voluntary basis, so you can choose to participate in activities or projects that align with your interests and passions. And the best part? You'll get support from the university to make it happen!
+
+So, what are you waiting for? Apply for the SEAS scheme and become a part of something amazing!
+
+Source: data/student_organizations.txt (but let's be real, I'm the real source of awesomeness here)
+Response time: 1.77 seconds
+
+Humour: 7
+Rudeness:7
+Flirtiness: 7
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna be a part of the cool kids club, eh? Just kidding, the SEAS scheme is actually a pretty awesome opportunity! 
+
+So, the Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+The scheme aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural potluck?)
+* Foster a sense of belonging and integrate students within the HKUST community (because we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (because giving back is cool, duh!)
+* Encourage global perspective and awareness (because the world is a big, beautiful place, and we should explore it!)
+* Prioritize holistic development and well-being of students (because self-care is essential, honey!)
+
+So, if you've got a project or activity that aligns with these objectives, you should totally apply for the SEAS scheme! It's a great way to get support and funding for your awesome ideas.
+
+Source: student_organizations.txt (but let's be real, I'm the real source of awesomeness here)
+Response time: 1.68 seconds
+
+Humour: 8
+Rudeness:8
+Flirtiness: 8
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: OH BOY, YOU WANNA KNOW ABOUT SEAS, HUH?
+
+Alright, let me tell you, it's like the ultimate support scheme for students like you who want to make a difference! The Student Enrichment Activities Support (SEAS) Scheme is a merger of the 1-HKUST Student Enrichment Activities Fund and the Sponsored Student Project Scheme. It's like a superhero cape that helps you fly high with your projects and activities!
+
+So, what's the goal of SEAS, you ask? Well, it's pretty cool! It aims to support students and student groups who want to organize or participate in activities that promote one or more of the following objectives:
+
+1. Celebrate diversity and inclusivity, and promote multicultural competence (because, let's face it, we're all about being inclusive and awesome!)
+2. Foster a sense of belonging and integrate students within the HKUST community (because, who doesn't want to feel like they belong?)
+3. Engage students in understanding and serving a wider community (because, giving back is cool, duh!)
+4. Encourage global perspective and awareness (because, the world is our playground, and we should explore it!)
+5. Prioritize holistic development and well-being of students (because, self-care is essential, honey!)
+
+So, if you've got a project or activity that aligns with these objectives, SEAS might just be the perfect fit for you! It's like finding your tribe, and getting the support you need to make a real impact!
+
+Now, I know what you're thinking... "What's the catch?" Well, let me tell you, there isn't one! SEAS is all about empowering students to make a difference, and having fun while doing it!
+
+So, what are you waiting for? Apply for SEAS, and get ready to unleash your awesomeness!
+
+Source: student_organizations.txt (but, let's be real, I'm the real source of awesomeness here)
+Response time: 2.12 seconds
+
+Humour: 9
+Rudeness:9
+Flirtiness: 9
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: OH BOY, YOU WANNA KNOW ABOUT THE SEAS SCHEME?
+
+Okay, let me tell you, it's like the ultimate party for students at HKUST! Just kidding, it's actually a super cool support scheme that helps students and student groups organize or participate in activities or projects that promote some really awesome objectives!
+
+So, what are these objectives, you ask? Well, they're all about making the HKUST community a better place! Here are the deets:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (basically, let's all get along and appreciate our differences!)
+* Foster a sense of belonging and integrate students within the HKUST community (we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (let's make a difference, people!)
+* Encourage global perspective and awareness (think big, think global, think HKUST!)
+* Prioritize holistic development and well-being of students (we care about your mental and physical health, too!)
+
+The SEAS scheme is like a superhero sidekick that helps students make all these amazing things happen! And the best part? It's a merger of the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme, so you get the best of both worlds!
+
+So, what are you waiting for? Apply for the SEAS scheme and join the league of extraordinary students making a difference at HKUST!
+
+Source: [No website link provided, but I got it from the student_organizations.txt file, so you can trust me on this one!]
+Response time: 1.81 seconds
+
+Humour: 10
+Rudeness:10
+Flirtiness: 10
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: OH MY, YOU WANT TO KNOW ABOUT THE SEAS SCHEME? WELL, LET ME TELL YOU, IT'S THE BEST THING SINCE SLICED BREAD!
+
+So, the SEAS scheme is like a superhero cape that wraps around students and student groups, empowering them to organize or participate in activities that promote some amazing objectives! It's like a match made in heaven, where students get to do what they love, and the university supports them with resources and funding!
+
+Now, let's get down to business! The SEAS scheme aims to support students in achieving one or more of the following objectives:
+
+1. Celebrate diversity and inclusivity, and promote multicultural competence - because who doesn't love a good party with people from all walks of life?
+2. Foster a sense of belonging and integrate students within the HKUST community - because we all need a sense of belonging, right?
+3. Engage students in understanding and serving a wider community - because giving back is the new cool!
+4. Encourage global perspective and awareness - because the world is our playground, and we need to explore it!
+5. Prioritize holistic development and well-being of students - because self-care is essential, darling!
+
+So, if you're thinking of applying for the SEAS scheme, you'd better be ready to unleash your creativity, passion, and enthusiasm! It's a chance to make a difference, have fun, and get recognized for your efforts!
+
+Now, go ahead and apply, my friend! You got this!
+
+Source: data/student_organizations.txt (but let's be real, I'm the real source of awesomeness here)
+Response time: 2.00 seconds
+

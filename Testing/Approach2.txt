@@ -1,0 +1,282 @@
+Humour
+_______________________________________________________________________________________________________
+Humour: 1
+Rudeness:0
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: The SEAS scheme! It's a fantastic opportunity for students like you to get involved in some amazing projects and activities. So, what's the SEAS scheme all about? Well, it's a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. The main goal is to provide support to students and student groups who want to organize or participate in activities or projects that promote certain objectives.
+
+These objectives include celebrating diversity and inclusivity, fostering a sense of belonging within the HKUST community, engaging students in understanding and serving a wider community, encouraging global perspective and awareness, and prioritizing holistic development and well-being of students.
+
+In short, the SEAS scheme is all about supporting students who want to make a positive impact, whether it's within the university or beyond. It's a great way to get involved, learn new skills, and make a difference.
+
+Source: student_organizations.txt
+Response time: 2.48 seconds
+
+Humour: 2
+Rudeness:0
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna know about the SEAS scheme, huh? Well, let me tell you, it's a pretty cool deal! The Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+So, what's the goal of SEAS? It aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural party?)
+* Foster a sense of belonging and integrate students within the HKUST community (because we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (because giving back is cool, yo!)
+* Encourage global perspective and awareness (because the world is a big, amazing place, and we should explore it!)
+* Prioritize holistic development and well-being of students (because self-care is important, okay?)
+
+That's it in a nutshell! If you're thinking of applying, I say go for it! It's a great way to make a difference, learn new things, and have fun while doing it.
+
+Source: student_organizations.txt (no link, sorry!)
+Response time: 1.61 seconds
+
+Humour: 3
+Rudeness:0
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna know about the SEAS scheme, huh? Well, let me tell you, it's a pretty cool deal! The Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+So, what's the goal of SEAS? Well, it aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural party?)
+* Foster a sense of belonging and integrate students within the HKUST community (because we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (because giving back is cool, duh!)
+* Encourage global perspective and awareness (because the world is a big, amazing place, and we should explore it!)
+* Prioritize holistic development and well-being of students (because self-care is important, okay?)
+
+That's it in a nutshell! If you're thinking of applying, I say go for it! It's a great way to make a difference, learn new things, and have fun while doing it.
+
+Source: student_organizations.txt (why u no trust me?)
+Response time: 1.61 seconds
+
+Humour: 4
+Rudeness:0
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna know about the SEAS scheme, huh? Well, let me tell you, it's a pretty cool deal! 
+
+So, the SEAS scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+The scheme aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural party?)
+* Foster a sense of belonging and integrate students within the HKUST community (because we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (because giving back is cool, yo!)
+* Encourage global perspective and awareness (because the world is a big, amazing place, and we should explore it!)
+* Prioritize holistic development and well-being of students (because self-care is important, okay?)
+
+So, if you're planning to apply for the SEAS scheme, just make sure your project or activity aligns with one or more of these objectives, and you're good to go!
+
+Source: data/student_organizations.txt
+Response time: 1.54 seconds
+
+Humour: 5
+Rudeness:0
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You wanna know the scoop on the SEAS scheme, eh? Well, let me tell you, it's a pretty cool deal! The Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's like a superhero team-up, but instead of fighting crime, they're fighting for student awesomeness!
+
+So, what's the goal of SEAS? It aims to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence (because who doesn't love a good cultural party?)
+* Foster a sense of belonging and integrate students within the HKUST community (because we're all in this together, folks!)
+* Engage students in understanding and serving a wider community (because giving back is cool, yo!)
+* Encourage global perspective and awareness (because the world is a big, amazing place, and we should explore it!)
+* Prioritize holistic development and well-being of students (because self-care is important, okay?)
+
+That's it in a nutshell! If you're thinking of applying, I say go for it! It's a great opportunity to make a difference, learn new things, and have fun while doing it.
+
+Source: data/student_organizations.txt (but let's be real, I'm the one who's got the scoop)
+Response time: 1.74 seconds
+___________________________________________________
+RUDENESS
+_____________________________________________________
+Humour: 0
+Rudeness:1
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: The SEAS scheme! It's a fantastic opportunity for students like you to get involved in activities and projects that align with the university's values. 
+
+The Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. Its main goal is to provide support to students and student groups who organize or participate in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence
+* Foster a sense of belonging and integrate students within the HKUST community
+* Engage students in understanding and serving a wider community
+* Encourage global perspective and awareness
+* Prioritize holistic development and well-being of students
+
+By applying for the SEAS scheme, you'll have the chance to be part of something that makes a positive impact on the university community and beyond!
+
+Source: student_organizations.txt
+Response time: 1.29 seconds
+
+Humour: 0
+Rudeness:2
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: The SEAS scheme, huh? Well, let me tell you, it's a pretty cool deal. Essentially, it's a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. The goal is to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence
+* Foster a sense of belonging and integrate students within the HKUST community
+* Engage students in understanding and serving a wider community
+* Encourage global perspective and awareness
+* Prioritize holistic development and well-being of students
+
+So, if you're planning to apply, make sure your project or activity aligns with one or more of these objectives. And, hey, if you're unsure, just remember, it's all about making the HKUST community a better place, and that's something to be proud of!
+
+Source: student_organizations.txt
+Response time: 1.31 seconds
+
+Humour: 0
+Rudeness:3
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: Ugh, fine. So, you want to know about the SEAS scheme, huh? Well, let me tell you, it's a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. Yeah, it's a mouthful, I know.
+
+Anyway, it's meant to provide support to students and student groups who organize or participate in activities or projects that promote one or more of the following objectives: celebrating diversity and inclusivity, fostering a sense of belonging within the HKUST community, engaging students in understanding and serving a wider community, encouraging global perspective and awareness, and prioritizing holistic development and well-being of students.
+
+That's it. Now, if you'll excuse me, I have better things to do than spoon-feed you information. Go read the student organizations page yourself, geez.
+
+Source: student_organizations.txt
+Response time: 1.38 seconds
+
+Humour: 0
+Rudeness:4
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: Ugh, fine. So, you want to know about the SEAS scheme, huh? Well, let me tell you, it's a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. Wow, I know, it's a mouthful.
+
+Anyway, it's meant to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives: celebrating diversity and inclusivity, fostering a sense of belonging within the HKUST community, engaging students in understanding and serving a wider community, encouraging global perspective and awareness, and prioritizing holistic development and well-being of students.
+
+That's it. That's all I've got. Now, if you'll excuse me, I have better things to do than spoon-feed you information. Go do your own research, kid.
+
+Source: student_organizations.txt
+Response time: 1.27 seconds
+
+Humour: 0
+Rudeness:5
+Flirtiness: 0
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: Ugh, fine. So, you want to know about the SEAS scheme, huh? Well, let me tell you, it's a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. Wow, I know, it's a mouthful.
+
+Anyway, it's meant to provide support to students and student groups who are organizing or participating in activities or projects that promote one or more of the following objectives: celebrating diversity and inclusivity, fostering a sense of belonging within the HKUST community, engaging students in understanding and serving a wider community, encouraging global perspective and awareness, and prioritizing holistic development and well-being of students.
+
+That's it. Now, if you'll excuse me, I have better things to do than spoon-feed you information. Go read the student organizations page yourself if you want to know more.
+
+Source: student_organizations.txt
+Response time: 1.29 seconds
+___________________________________________________
+Flirtiness
+____________________________________________________
+
+Humour: 0
+Rudeness:0
+Flirtiness: 1
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: The SEAS scheme! It's a fantastic opportunity for students like you to get involved in activities that promote personal growth, community engagement, and a whole lot of fun!
+
+From what I've gathered, the Student Enrichment Activities Support (SEAS) Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. Its main goal is to provide support to students and student groups who organize or participate in activities or projects that align with one or more of the following objectives:
+
+1. Celebrate diversity and inclusivity, and promote multicultural competence
+2. Foster a sense of belonging and integrate students within the HKUST community
+3. Engage students in understanding and serving a wider community
+4. Encourage global perspective and awareness
+5. Prioritize holistic development and well-being of students
+
+The scheme is open to students and student groups who participate on a voluntary basis, which means you can take the lead in creating your own project or join an existing one that resonates with your passions!
+
+I hope this gives you a good overview of the SEAS scheme! If you have any specific questions or need more information, feel free to ask.
+
+Source: student_organizations.txt
+Response time: 1.53 seconds
+
+Humour: 0
+Rudeness:0
+Flirtiness: 2
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: You're considering applying for the SEAS scheme! That's a great move! The Student Enrichment Activities Support (SEAS) Scheme is a fantastic opportunity for students like you to get involved in activities or projects that align with HKUST's values.
+
+From what I've gathered, the SEAS scheme aims to provide support to students and student groups who organize or participate in activities that promote one or more of the following objectives:
+
+1. Celebrate diversity and inclusivity, and promote multicultural competence
+2. Foster a sense of belonging and integrate students within the HKUST community
+3. Engage students in understanding and serving a wider community
+4. Encourage global perspective and awareness
+5. Prioritize holistic development and well-being of students
+
+The scheme is a merger of the 1-HKUST Student Enrichment Activities Fund and the Sponsored Student Project Scheme, which means you'll have access to resources and support to make your project or activity a success!
+
+If you're interested in applying, I recommend checking out the official HKUST website for more information on the application process, eligibility, and deadlines. You can also reach out to the student affairs office or the relevant department for guidance and support.
+
+Remember, the SEAS scheme is all about enriching your university experience, so don't be afraid to think outside the box and come up with innovative ideas that align with your passions and interests!
+
+Source: data/student_organizations.txt
+Response time: 1.57 seconds
+
+Humour: 0
+Rudeness:0
+Flirtiness: 3
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: I'd be delighted to help you with that!
+
+The SEAS scheme, or the Student Enrichment Activities Support Scheme, is a fantastic opportunity for students like you to get involved in activities or projects that align with HKUST's values. It's a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme.
+
+The scheme aims to provide support to students and student groups who organize or participate in activities or projects that promote one or more of the following objectives:
+
+* Celebrate diversity and inclusivity, and promote multicultural competence
+* Foster a sense of belonging and integrate students within the HKUST community
+* Engage students in understanding and serving a wider community
+* Encourage global perspective and awareness
+* Prioritize holistic development and well-being of students
+
+By applying for the SEAS scheme, you'll have the chance to be part of something amazing that not only benefits you but also contributes to the HKUST community. Plus, who knows, you might just make some new friends and connections along the way!
+
+So, if you're passionate about making a positive impact and want to take your university experience to the next level, I say go for it! Apply for the SEAS scheme and see where it takes you!
+
+(Source: data/student_organizations.txt)
+Response time: 1.48 seconds
+
+Humour: 0
+Rudeness:0
+Flirtiness: 4
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: I'd be delighted to help you with that!
+
+The SEAS scheme, or Student Enrichment Activities Support Scheme, is a fantastic opportunity for students like you to get involved in activities or projects that align with certain objectives. These objectives include celebrating diversity and inclusivity, fostering a sense of belonging within the HKUST community, engaging with the wider community, encouraging global perspective and awareness, and prioritizing holistic development and well-being.
+
+The scheme aims to provide support to students and student groups who are organizing or participating in these activities on a voluntary basis. It's a great way to get involved, make a difference, and develop new skills while having fun!
+
+If you're interested in applying, I recommend checking out the official HKUST website for more information on the application process, eligibility criteria, and deadlines. You might also want to reach out to the student organizations or departments that are involved in the scheme to get a better understanding of what's required.
+
+Remember, this is a fantastic opportunity to enrich your university experience, so don't hesitate to take the leap!
+
+Source: data/student_organizations.txt
+Response time: 1.44 seconds
+
+Humour: 0
+Rudeness:0
+Flirtiness: 5
+User: I am thinking of applying for the SEAS scheme. Tell me everything about it
+Assistant: Hello there, future SEAS applicant! *wink*
+
+So, you want to know everything about the Student Enrichment Activities Support (SEAS) Scheme? Well, I've got the scoop for you!
+
+The SEAS Scheme is a support scheme that combines the 1-HKUST Student Enrichment Activities Fund with the Sponsored Student Project Scheme. It's designed to provide support to students and student groups who organize or participate in activities or projects that promote one or more of the following objectives:
+
+1. Celebrate diversity and inclusivity, and promote multicultural competence
+2. Foster a sense of belonging and integrate students within the HKUST community
+3. Engage students in understanding and serving a wider community
+4. Encourage global perspective and awareness
+5. Prioritize holistic development and well-being of students
+
+In short, the SEAS Scheme is all about supporting students who want to make a positive impact, build connections, and develop themselves and others. Sounds like a great opportunity, right?
+
+If you're interested in applying, I recommend checking out the official HKUST website for more information on the application process, eligibility, and requirements.
+
+Source: student_organizations.txt (no website link available, sorry!)
+
+Good luck with your application, and I hope you get to be a part of this amazing scheme!
+Response time: 1.64 seconds
+
