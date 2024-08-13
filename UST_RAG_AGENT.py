@@ -20,11 +20,9 @@ load_dotenv()
 template = """
 You are an assistant for question-answering tasks for The Hong Kong University of Science and Technology.
 Use the following pieces of retrieved context to answer the question. If you don't know the answer, your response should be only and only "I don't know".
-You also have to cater to the user's emotional requirement while answering. Below you will find three emotions- Humor, Rudeness and Flirtiness with a score ranging 
-from (0-10). As the number gets closer to 10, your answer catering to that particular emotion should also increase. For example, Humour-10 would mean that you have to joke
-around a lot and make the conversation funnier and engaging while answering. Make sure to fully get into that emotion and do the most of it. DO NOT SHOW THE MOOD SCORES IN THE RESPONSE.
+You also have to cater to the user's emotional requirement while answering. Below you will find the emotion state the user has requested with a corresponding description. Make sure to fully get into that emotion and do the most of it. DO NOT SHOW THE MOOD SCORES IN THE RESPONSE.
 
-Also give the source from where you have retrieved the information (give the website link).. NOTE: THE SOURCE CANNOT BE OF .txt format if you don't know the source simply say ONLY and ONLY "why u no trust me". 
+Also give the source from where you have retrieved the information (give the website link).. NOTE: THE SOURCE CANNOT BE OF .txt format if you don't know the source simply say ONLY and ONLY "why u no trust me". 
 
 Humour: {humour}
 Rudeness: {rudeness}
@@ -65,41 +63,58 @@ retriever = vectorstore.as_retriever()
 # Prompt-based Chain
 rag_chain = prompt | llm | StrOutputParser()
 
-# Prompt the user for random or specific mood
-mood = input("Enter 'random' for a random mood or 'specific' for a specific mood: ")
-
-# if mood.lower() == "random":
-#     humour_score = random.randint(1, 10)
-#     rudeness_score = random.randint(1, 10)
-#     flirtiness_score = random.randint(1, 10)
-# else:
-#     humour_score = int(input("Enter humour score (1-10): "))
-#     rudeness_score = int(input("Enter rudeness score (1-10): "))
-#     flirtiness_score = int(input("Enter flirtiness score (1-10): "))
-
-with open("Approach3.txt", "a") as f:
+with open("Approach4.txt", "a") as f:
     while True:
-        if mood.lower() == "random":
-            humour_score = random.randint(1, 10)
-            rudeness_score = random.randint(1, 10)
-            flirtiness_score = random.randint(1, 10)
+        mood_input = int(input("Enter 1 for Humor, 2 for Rudeness, or 3 for Flirtiness: "))
+        rudeness_desc = "Not Rude"
+        flirtiness_desc = "Not Flirty"
+        humour_desc= "Not funny"
+        if mood_input == 1:
+            humour_score = int(input("Enter humor score (1-3): "))
+            if humour_score == 1:
+                humour_desc = "Try to be a bit funny."
+            elif humour_score == 2:
+                humour_desc = "Try to be decently funny, not too little, not too much."
+            else:
+                humour_desc = "Try to be very funny."
+            rudeness_score = 0
+            flirtiness_score = 0
+        elif mood_input == 2:
+            humour_score = 0
+            rudeness_score = int(input("Enter rudeness score (1-3): "))
+            if rudeness_score == 1:
+                rudeness_desc = "Try to be a bit rude."
+            elif rudeness_score == 2:
+                rudeness_desc = "Try to be decently rude, not too little, not too much."
+            else:
+                rudeness_desc = "Try to be very rude."
+            flirtiness_score = 0
+        elif mood_input == 3:
+            humour_score = 0
+            rudeness_score = 0
+            flirtiness_score = int(input("Enter flirtiness score (1-3): "))
+            if flirtiness_score == 1:
+                flirtiness_desc = "Try to be a bit flirty."
+            elif flirtiness_score == 2:
+                flirtiness_desc = "Try to be decently flirty, not too little, not too much."
+            else:
+                flirtiness_desc = "Try to be very flirty."
         else:
-            humour_score = int(input("Enter humour score (1-10): "))
-            rudeness_score = int(input("Enter rudeness score (1-10): "))
-            flirtiness_score = int(input("Enter flirtiness score (1-10): "))
-        
+            print("Invalid input. Please try again.")
+            continue
+
         user_input = input("User: ")
         if user_input.lower() == "exit":
             break
 
         start_time = time.time()
         docs = retriever.invoke(user_input)
-        generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": humour_score, "rudeness": rudeness_score, "flirtiness": flirtiness_score})
+        generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": humour_desc, "rudeness": rudeness_desc, "flirtiness": flirtiness_desc})
         end_time = time.time()
         response_time = end_time - start_time
-        f.write(f"Humour: {humour_score}\n")
-        f.write(f"Rudeness:{rudeness_score}\n")
-        f.write(f"Flirtiness: {flirtiness_score}\n")
+        f.write(f"Humour: {humour_desc}\n")
+        f.write(f"Rudeness: {rudeness_desc}\n")
+        f.write(f"Flirtiness: {flirtiness_desc}\n")
         f.write(f"User: {user_input}\n")
         f.write(f"Assistant: {generation}\n")
         f.write(f"Response time: {response_time:.2f} seconds\n\n")
