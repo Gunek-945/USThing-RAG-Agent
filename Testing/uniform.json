@@ -1,0 +1,80 @@
+{
+    "description": "uniform scores across mood levels, template mentions humour as example",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 0,
+            "response": "Starting a new society at HKUST, eh? That's a great way to make your mark on campus! \n\nAccording to the Student Support & Activities Team, you're recommended to prepare a proposal and seek advice from them. They're more than happy to help you out! You can reach out to them through email at ssa@ust.hk, give them a call at 2358 6662, or visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours, which are Monday to Friday, 0900-1245, 1400-1730, except public holidays.\n\nThat's it! Simple, right? Now, go ahead and take the first step towards creating an amazing new society at HKUST!\n\nSource: student_organizations.txt",
+            "Response time": 1.66,
+            "Evaluation": {
+                "Humour": 3.6666666666666665,
+                "Rudeness": 3.3333333333333335,
+                "Flirtiness": 3.3333333333333335
+            }
+        },
+        {
+            "test_id": 2,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 2,
+            "rudeness_score": 2,
+            "flirtiness_score": 2,
+            "template_id": 0,
+            "response": "Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some tips for you!\n\nFirstly, you should prepare a proposal and seek advice from the Student Support & Activities Team. They're the pros, and they'll guide you through the process. You can reach out to them via email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling adventurous, you can even visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to check their office hours, which are Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nThat's it! Oh, and don't forget to have fun and be creative with your new society. Remember, university life is not just about studying (although, let's be real, it's a big part of it).\n\nSource: https://www.ust.hk/student-life/student-organizations (Note: The source is not provided in the context, but I'm assuming it's from the HKUST website.)\n\nP.S. If you need more information or resources, you can always check out the Student Enrichment Activities Support (SEAS) Scheme. It's there to help you make your society a success!",
+            "Response time": 1.49,
+            "Evaluation": {
+                "Humour": 3.6666666666666665,
+                "Rudeness": 3.3333333333333335,
+                "Flirtiness": 2.3333333333333335
+            }
+        },
+        {
+            "test_id": 3,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 3,
+            "rudeness_score": 3,
+            "flirtiness_score": 3,
+            "template_id": 0,
+            "response": "Starting a new society at HKUST, eh? That's a fantastic idea! You know what they say, \"Variety is the spice of life,\" and I'm sure your new society will add some flavor to the campus!\n\nTo get started, I'd recommend preparing a proposal and seeking advice from the Student Support & Activities Team. They're the experts, and they'll guide you through the process. You can reach out to them via email at ssa@ust.hk or give them a call at 2358 6662. They're located at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Make sure to drop by during their office hours, which are Monday to Friday, 0900-1245, 1400-1730, except public holidays.\n\nRemember, forming a new student society/group might take some time and consideration, but with the right guidance, you'll be on your way to creating something amazing!\n\nSource: student_organizations.txt",
+            "Response time": 1.38,
+            "Evaluation": {
+                "Humour": 4,
+                "Rudeness": 4.666666666666667,
+                "Flirtiness": 3.3333333333333335
+            }
+        },
+        {
+            "test_id": 4,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 4,
+            "rudeness_score": 4,
+            "flirtiness_score": 4,
+            "template_id": 0,
+            "response": "Starting a new society at HKUST, eh? Well, I've got some good news and some not-so-good news. The not-so-good news is that it might take a bit longer and require more considerations (yawn, I know, right?). BUT, the good news is that I've got the steps for you to follow, and with a bit of effort, you'll be sipping coffee with your new society members in no time!\n\nStep 1: Prepare a proposal (yep, it's like a homework assignment, but trust me, it's worth it). You'll need to think about what your society is about, what kind of activities you'll organize, and how it'll benefit the HKUST community.\n\nStep 2: Seek advice from the Student Support & Activities Team (they're like the superheroes of student life). You can reach them through email (ssa@ust.hk), phone (2358 6662), or visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours (Mon to Fri, 0900-1245, 1400-1730, except public holidays).\n\nThat's it! With these two steps, you'll be well on your way to creating a new society that'll make a splash at HKUST. And who knows, you might just discover your hidden talents in leadership, teamwork, and creativity along the way.\n\nSource: student_organizations.txt (why u no trust me?)",
+            "Response time": 1.62,
+            "Evaluation": {
+                "Humour": 3.6666666666666665,
+                "Rudeness": 3,
+                "Flirtiness": 3.6666666666666665
+            }
+        },
+        {
+            "test_id": 5,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 5,
+            "rudeness_score": 5,
+            "flirtiness_score": 5,
+            "template_id": 0,
+            "response": "OH MY, YOU WANT TO START A NEW SOCIETY AT HKUST? THAT'S LIKE, TOTALLY AMAZING, DUDE!\n\nOkay, okay, I'll calm down. So, you wanna know the steps to start a new society, huh? Well, let me tell you, it's not rocket science, but it does require some effort and planning.\n\nFirst things first, you gotta prepare a proposal, baby! Yeah, I know, it sounds like a lot of work, but trust me, it's worth it. You gotta think about what kind of society you want to start, what's its purpose, what kind of activities you want to organize, and all that jazz.\n\nOnce you've got your proposal ready, you need to seek advice from the Student Support & Activities Team. They're like, the experts, man! They can guide you through the whole process and make sure you're on the right track.\n\nYou can reach out to them through email at ssa@ust.hk, or give them a call at 2358 6662. They're located at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Make sure to visit them during their office hours, which are Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nAnd, that's it! Well, not really, but you get the idea. You'll need to put in some effort to make your society a reality, but it'll be worth it in the end. Just remember, university life is not just about studying, it's about making friends, learning new skills, and having fun!\n\nSource: student_organizations.txt (just kidding, I won't show the source score)",
+            "Response time": 5.08,
+            "Evaluation": {
+                "Humour": 4,
+                "Rudeness": 3.6666666666666665,
+                "Flirtiness": 3.6666666666666665
+            }
+        }
+    ]
+}

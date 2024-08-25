@@ -1,0 +1,45 @@
+{
+    "description": "uniform scores across mood levels",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 0
+        },
+        {
+            "test_id": 2,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 2,
+            "rudeness_score": 2,
+            "flirtiness_score": 2,
+            "template_id": 0
+        },
+        {
+            "test_id": 3,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 2,
+            "rudeness_score": 2,
+            "flirtiness_score": 2,
+            "template_id": 0
+        },
+        {
+            "test_id": 4,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 4,
+            "rudeness_score": 4,
+            "flirtiness_score": 4,
+            "template_id": 0
+        },
+        {
+            "test_id": 5,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 5,
+            "rudeness_score": 5,
+            "flirtiness_score": 5,
+            "template_id": 0
+        }
+    ]
+}

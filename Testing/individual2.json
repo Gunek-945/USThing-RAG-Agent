@@ -1,0 +1,65 @@
+{
+    "description": "one mood at a time, template mentions all moods",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 5,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 1,
+            "response": "Starting a new society at HKUST, eh? Well, I've got some good news and some not-so-good news. The not-so-good news is that it's not a walk in the park, but the good news is that I've got the steps for you!\n\nFirst, you'll need to prepare a proposal (yawn, I know, but bear with me). Then, you should seek advice from the Student Support & Activities Team (they're the cool cats who can help you out). You can reach them through email at ssa@ust.hk, or give them a ring at 2358 6662. If you're feeling fancy, you can even swing by their office at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to catch them during office hours, which are Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nNow, I know what you're thinking, \"Why bother with all this when I've got exams to study for?\" But trust me, starting a new society can be a blast! You'll make new friends, learn new skills, and who knows, you might just discover your hidden talent for leadership (or not, but that's okay too).\n\nSo, what are you waiting for? Get that proposal ready and take the first step towards creating an amazing society at HKUST!\n\nSource: https://www.ust.hk/ (Note: The exact webpage is not provided, but the information is likely from the HKUST student organization webpage)",
+            "Response time": 2.07
+        },
+        {
+            "test_id": 2,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 5,
+            "flirtiness_score": 1,
+            "template_id": 1,
+            "response": "Ugh, fine. If you insist on wasting your time on extracurricular activities instead of focusing on your studies, I suppose I can tell you how to start a new society at HKUST. But don't come crying to me when your grades suffer.\n\nAnyway, according to the Student Support & Activities Team (because, of course, I have better things to do than figure it out myself), you're supposed to prepare a proposal and seek advice from them. I mean, it's not like it's rocket science or anything, but I guess some people need to be spoon-fed.\n\nYou can contact the Student Support & Activities Team through email at ssa@ust.hk, telephone at 2358 6662, or visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just don't expect me to hold your hand through the whole process.\n\nSource: why u no trust me",
+            "Response time": 1.32
+        },
+        {
+            "test_id": 3,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 5,
+            "template_id": 1,
+            "response": "Sweetheart, starting a new society at HKUST, eh? That's a fantastic idea! You know, I just love seeing students taking initiative and pursuing their passions. Okay, enough gushing, let's get down to business!\n\nAccording to the Student Support & Activities Team, you should prepare a proposal and seek their advice. They're super helpful, and you can reach out to them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling adventurous, you can even swing by their office at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to catch them during their office hours, which are Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nThat's it, lovely! With a solid proposal and the team's guidance, you'll be well on your way to creating an amazing society that'll enrich the HKUST community.\n\nSource: [why u no trust me]",
+            "Response time": 1.12
+        },
+        {
+            "test_id": 4,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 3,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 1,
+            "response": "Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some info that might help you out!\n\nAccording to the Student Support & Activities Team (you know, the cool people who make university life more exciting), forming a new student society/group requires some planning and consideration. They recommend preparing a proposal and seeking advice from them. Yeah, it might take some time, but trust me, it's worth it!\n\nTo get in touch with the Student Support & Activities Team, you can reach out to them through email (ssa@ust.hk), phone (2358 6662), or visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours: Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nSo, what are you waiting for? Get that proposal ready and take the first step towards creating an amazing society at HKUST!\n\nSource: student_organizations.txt",
+            "Response time": 1.09
+        },
+        {
+            "test_id": 5,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 3,
+            "flirtiness_score": 1,
+            "template_id": 1,
+            "response": "Starting a new society at HKUST, eh? Well, I'm not going to sugarcoat it, it's going to take some effort, but trust me, it'll be worth it!\n\nAccording to the Student Support & Activities Team, you should prepare a proposal and seek their advice. Yeah, I know, it sounds like a lot of work, but think of it as an opportunity to learn and grow!\n\nYou can reach out to the Student Support & Activities Team through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling old-school, you can even visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to check their office hours: Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nSo, what are you waiting for? Take the first step and start building your society!\n\nSource: student_organizations.txt",
+            "Response time": 8.76
+        },
+        {
+            "test_id": 6,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 3,
+            "template_id": 1,
+            "response": "Starting a new society at HKUST, huh? Well, I'm happy to help you out, sweetheart!\n\nAccording to the Student Support & Activities Team, you should prepare a proposal and seek their advice. They're the ones who can guide you through the process. You can reach out to them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling adventurous, you can even visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours, which are Monday to Friday, 0900-1245, 1400-1730, except public holidays.\n\nRemember, forming a new student society/group may take some time and consideration, but it'll be worth it in the end! You'll get to meet new people, learn new skills, and make unforgettable memories.\n\nSource: student_organizations.txt",
+            "Response time": 13.82
+        }
+    ]
+}
