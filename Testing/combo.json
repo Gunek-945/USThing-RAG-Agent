@@ -1,5 +1,5 @@
 {
-    "description": "one mood at a time, template mentions all moods",
+    "description": "combo mood, template builds off 1 and reminds model to combine",
     "conversations": [
         {
             "test_id": 1,
