@@ -17,3 +17,7 @@ Implications revealed by tests
 ## Suggestion? 
 - one mood at a time 
 - three levels: low, moderate, high, corresponding to 1,3 and 5 - see individual2.json
+
+## Update - 30/8/2024
+- tried another mood, Sophistication. Wanted bot to speak in a "classy" way, doesn't work (soph.json)
+- using original moods. For combos, I am unable to find examples that contain all 3 moods, so pairs only for now (humour+ flirty, humour+rude, rude+flirty). Sort of works, see combo2.json
