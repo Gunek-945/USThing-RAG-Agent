@@ -1,0 +1,25 @@
+{
+    "description": "test for sophistication, and neutral as well",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "sophistication_score": 1,
+            "template_id": 3,
+            "response": "Starting a new society at HKUST, eh? Well, I'd say that's a great way to break the monotony of just studying all day! According to the Student Support & Activities Team, you should prepare a proposal and seek their advice. They're more than happy to help you out. You can reach them through email at ssa@ust.hk, give them a call at 2358 6662, or visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours, which are Monday to Friday, 0900-1245, 1400-1730, except public holidays.\n\nSource: https://www.ust.hk/student-life/student-organizations/",
+            "Response time": 1.04
+        },
+        {
+            "test_id": 2,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "sophistication_score": 5,
+            "template_id": 3,
+            "response": "An entrepreneurial spirit, I must say! Starting a new society at HKUST, you say? Well, I'm more than happy to guide you through the process. According to the Student Support & Activities Team, forming a new student society/group may require longer time and more considerations. But don't worry, I've got you covered!\n\nFirstly, it's essential to prepare a proposal outlining the objectives, goals, and structure of your proposed society. This will give the Student Support & Activities Team a clear understanding of your vision and help them provide valuable advice.\n\nOnce you have your proposal ready, I recommend seeking advice from the Student Support & Activities Team. You can reach out to them through email at ssa@ust.hk, telephone at 2358 6662, or visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Don't forget to check their office hours: Monday to Friday, 0900-1245, 1400-1730, except public holidays.\n\nBy following these steps, you'll be well on your way to establishing a thriving society at HKUST. Remember, this is an excellent opportunity to develop your creativity, leadership, and teamwork skills, all of which are vital for your personal growth and enrichment.\n\nSource: [No website link provided, as the source is a .txt file]",
+            "Response time": 1.27
+        }
+    ]
+}

@@ -59,6 +59,7 @@ def get_reponse(convo_entry:dict, provided_docs):
     else:
         docs= provided_docs
     generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": convo_entry['humour_score'], "rudeness": convo_entry['rudeness_score'], "flirtiness": convo_entry['flirtiness_score']})
+    #generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": convo_entry['humour_score'], "rudeness": convo_entry['rudeness_score'], "sophistication": convo_entry['sophistication_score']})
     end_time = time.time()
     response_time = end_time - start_time
     return generation, response_time
@@ -87,7 +88,7 @@ def test_with_json(json_file_path, same_question):
         file.truncate()
 
 if __name__=="__main__":
-    test_with_json(r"Testing\combo.json", True)
+    test_with_json(r"Testing\combo2.json", True)
 
 
 """

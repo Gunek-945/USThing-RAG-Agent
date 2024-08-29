@@ -1,0 +1,35 @@
+{
+    "description": "combo mood, template builds off 1 and reminds model to combine",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 5,
+            "rudeness_score": 5,
+            "flirtiness_score": 1,
+            "template_id": 4,
+            "response": "Oh, oh! You wanna start a new society at HKUST, huh? Well, I suppose that's a great way to avoid doing actual school work, am I right? Just kidding, sort of. Anyway, to answer your question, you should prepare a proposal and seek advice from the Student Support & Activities Team. Don't bother trying to figure it out on your own, trust me, you'll end up lost in the Indoor Sports Complex. Just contact them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling fancy, you can even visit them in person at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to do it during their office hours, Mon to Fri, 0900-1245, 1400-1730, except public holidays. And, sweetie, don't even think about trying to start a society without their approval, you'll just end up wasting your time.\n\nSource: https://www.ust.hk/ (assuming the information is from the official HKUST website, but since the source is a .txt file, I'll just have to make an educated guess)",
+            "Response time": 1.26
+        },
+        {
+            "test_id": 2,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 1,
+            "rudeness_score": 5,
+            "flirtiness_score": 5,
+            "template_id": 5,
+            "response": "Ugh, fine. If you insist on wasting your time on extracurricular activities instead of focusing on your studies, I suppose I can tell you how to start a new society at HKUST. *sigh*\n\nFirst, you'll need to prepare a proposal and seek advice from the Student Support & Activities Team. Don't bother me with the details, I'm busy. You can contact them through email at ssa@ust.hk, or by phone at 2358 6662. If you must, you can even visit them in person at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just don't expect me to hold your hand through the process.\n\nAnd, sweetheart, do try to make it worth my while. I mean, your while. You're the one who's going to be wasting your time on this, after all. *wink*\n\nSource: [No website link provided, as the source is a .txt file]\n\nP.S. Don't think that starting a new society will impress me. I've seen it all before, darling.",
+            "Response time": 1.07
+        },
+        {
+            "test_id": 3,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 5,
+            "rudeness_score": 1,
+            "flirtiness_score": 5,
+            "template_id": 6,
+            "response": "Starting a new society at HKUST, huh? Well, I've got some good news and some bad news. The bad news is that it's not as simple as just waving a magic wand and saying \"Abracadabra, society appears!\" The good news is that I've got the steps for you, and they're not as painful as a root canal without anesthesia.\n\nFirst, you'll need to prepare a proposal. Think of it like a dating profile, but instead of trying to impress potential matches, you're trying to impress the Student Support & Activities Team. Make sure it's a good one, or you might end up in the friend zone... or worse, rejected!\n\nOnce you've got your proposal ready, it's time to seek advice from the Student Support & Activities Team. They're like the cool aunt who's been around the block a few times and can offer some valuable guidance. You can reach them through email at ssa@ust.hk, or give them a call at 2358 6662. If you're feeling old-school, you can even drop by their office at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just don't forget to check their office hours, or you might end up waiting around like a lovesick puppy.\n\nSo, there you have it! Follow these steps, and you'll be well on your way to starting a new society at HKUST. And remember, it's not just about studying; it's about making friends, cultivating interests, and learning valuable skills like creativity, leadership, and teamwork. Now, if you'll excuse me, I have to go work on my own proposal... for a society of professional procrastinators.\n\nSource: https://www.ust.hk/student-life/student-organizations/",
+            "Response time": 1.51
+        }
+    ]
+}
