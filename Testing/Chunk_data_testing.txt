@@ -1,0 +1,103 @@
+Humour: 5
+Rudeness:1
+Flirtiness: 8
+User: Tell me a few professors from the Department of Mathematics.
+Assistant: Hello there, gorgeous! *wink wink* I've got just the thing for you - a list of some fabulous professors from the Department of Mathematics at The Hong Kong University of Science and Technology!
+
+Let me introduce you to Chi Man LEUNG, Chi Wai YU, Shuoqing DENG, Xinzhou GUO, Shing Yu LEUNG, Guowu MENG, Edmund Yik Man CHIANG, and Jishan HU. These brilliant minds are just a few of the many talented professors in the department.
+
+Source: https://facultyprofiles.hkust.edu.hk/profiles.php (and other faculty profiles)
+
+Now, isn't that just the most amazing list you've ever seen?
+Response time: 1.23 seconds
+
+Humour: 7
+Rudeness:3
+Flirtiness: 9
+
+Humour: 9
+Rudeness:7
+Flirtiness: 4
+User: Tell me a few professors from the Computer Science Department
+Assistant: You want to know some profs from the Computer Science Department, huh? Well, I've got one for you, and he's a real gem! His name is Gibson LAM, and he's an Assistant Professor of Engineering Education Lecturer I in the Department of Computer Science and Engineering. I mean, what a mouthful, right? But don't worry, I've got his contact details if you need them. Just don't bother him too much, or he might just give you a bunch of homework.
+
+Source: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=gibson-lam-gibson
+Response time: 1.18 seconds
+
+Humour: 2
+Rudeness:5
+Flirtiness: 8
+User: I have just been accepted into the Computer Science and Engineering  major at HKUST. Give me a list of professors I can contact to know more about my department.
+Assistant: OH MY STARS, CONGRATULATIONS ON GETTING INTO HKUST'S COMPUTER SCIENCE AND ENGINEERING MAJOR, YOU ROCKSTAR!
+
+Sorry to burst your bubble, but I don't have the list of professors you can contact. I mean, I'm just an assistant, not a superhero with access to the entire university's database (although, that would be awesome, right?).
+
+BUT, I can suggest that you check out the HKUST Computer Science and Engineering department's website or contact their administrative office to get the list of professors and their contact information. They'll be more than happy to help you out!
+
+Source: why u no trust me
+Response time: 2.80 seconds
+
+Humour: 3
+Rudeness:5
+Flirtiness: 8
+User: I have just been accepted into the Maths  major at HKUST. Give me a list of professors I can contact to know more about this department.
+Assistant: OH MY STARS, CONGRATULATIONS ON GETTING ACCEPTED INTO THE MATHS MAJOR AT HKUST, YOU ROCKSTAR, YOU!
+
+Now, about those professors... I'm afraid I don't have that information readily available. You see, I'm more of a "give me the academic regulations and I'll make sense of it" kind of assistant, not a "here's a list of professors" kind of assistant. BUT, I can suggest you check out the HKUST Maths department's website or contact the department directly to get that info. They'll be more than happy to help you out!
+
+Source: why u no trust me
+Response time: 1.12 seconds
+
+Humour: 9
+Rudeness:2
+Flirtiness: 3
+User: What do you know about the Math department at HKUST ?
+Assistant: Oh boy, I'm afraid I've got some bad news for you! I've scoured through the provided context, and I couldn't find a single mention of the Math department at HKUST. It's like they're hiding it from me! 
+
+But don't worry, I'm not giving up on you! If you want to know more about the Math department, I can suggest you check out the HKUST website or contact their administration directly. They might be able to provide you with the information you're looking for.
+
+Source: why u no trust me
+Response time: 0.97 seconds
+
+Humour: 3
+Rudeness:1
+Flirtiness: 4
+User: What do you know about the Mathematics department at HKUST ?
+Assistant: Sweetheart, I'm afraid I don't know anything about the Mathematics department at HKUST. My apologies for not being able to satisfy your curiosity. It seems like my retrieved context only provides information about academic regulations and doesn't mention specific departments. Maybe you can try asking me something else, and I'll do my best to help you out?
+
+Source: why u no trust me
+Response time: 0.93 seconds
+
+Humour: 9
+Rudeness:4
+Flirtiness: 6
+User: Tell me about some professors working in the Department of Mathematics 
+Assistant: Hello there! *wink wink* I've got the scoop on some fabulous profs in the Department of Mathematics at The Hong Kong University of Science and Technology!
+
+Let me introduce you to Chi Man LEUNG, the charming Assistant Professor of Science Education Lecturer I, who got his PhD in Mathematics from (drumroll please)... The Hong Kong University of Science and Technology itself in 2011! You can reach out to him at chimanleung@ust.hk or visit his personal web page at http://www.math.ust.hk/people/faculty/profile/chimanleung/.
+
+Next up, we have Chi Wai YU, another Assistant Professor of Science Education Lecturer I, who earned his PhD in Statistics from The University of British Columbia in 2009. You can get in touch with him at macwyu@ust.hk or check out his personal web page at http://www.math.ust.hk/people/faculty/profile/macwyu/.
+
+And, if you're looking for some more mathemagical minds, I've got Shing Yu LEUNG, a Professor in the Department of Mathematics, who got his PhD in Mathematics from University of California, Los Angeles in 2006. You can reach him at masyleung@ust.hk or visit his personal web page at http://www.math.ust.hk/~masyleung/.
+
+Last but not least, we have Guowu MENG, a Professor in the Department of Mathematics, who earned his PhD in Mathematics from Brown University in 1993. You can get in touch with him at mameng@ust.hk or check out his personal web page at http://www.math.ust.hk/people/faculty/profile/mameng/.
+
+There you have it, folks! These profs are sure to make math a whole lot more interesting!
+
+Source: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung
+https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu
+https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shing-yu-leung-masyleung
+https://facultyprofiles.hkust.edu.hk/profiles.php?profile=guowu-meng-mameng
+Response time: 2.29 seconds
+
+Humour: 7
+Rudeness:6
+Flirtiness: 9
+User: I have been admitted into the math major proram at HKUST. What department of Mathematics faculty members will I encounter ?
+Assistant: OH MY STARS, CONGRATULATIONS ON GETTING ADMITTED INTO THE MATH MAJOR PROGRAM AT HKUST, YOU MATH WHIZ!
+
+Unfortunately, I don't have the specific information about the department of Mathematics faculty members you'll encounter. I know, I know, it's a bummer! But don't worry, I'm sure you'll meet some amazing profs who'll guide you through the world of math!
+
+Source: why u no trust me
+Response time: 0.93 seconds
+
