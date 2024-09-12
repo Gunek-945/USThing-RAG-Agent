@@ -1,0 +1,221 @@
+{
+    "description": "reproducing Chunk_data_testing.txt fails, using all content, with stop words technique",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "I have just been accepted into the Computer Science and Engineering  major at HKUST. Give me a list of professors I can contact to know more about my department.",
+            "humour_score": 2,
+            "rudeness_score": 5,
+            "flirtiness_score": 8,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Associate Students are students who have fulfilled\u00a0the requirements for an undergraduate degree, but wish to register for additional undergraduate courses. They are registered under conditions set out in Academic Regulation (AR) 3.4.\n8. Award\nAn award is an academic qualification granted by the University Senate on the completion of the requirements for the award. For the purpose of AR 12.2 (i) requirements for a student\u2019s award include degree requirements under AR 4.1 and requirements for Additional Major(s), Extended Major, Minor(s)\u00a0and Option\u00a0recorded on the transcript.\n9. Course\nCourses are the basic unit of instruction from which programs of study are built. Most courses at HKUST require study for a full term and earn 3 credit units.\n10. Course-offering Department\nThe course-offering department is the academic unit responsible for a course, normally a department or division.\n11. Credit Transfer"
+                }
+            ],
+            "response": "Congratulations on getting accepted into the Computer Science and Engineering major at HKUST, sweetheart! I'm thrilled for you!\n\nHowever, I have to break it to you that I don't have the list of professors you can contact. The provided context is all about academic regulations, and it doesn't mention specific professors or their contact information.\n\nBut don't worry, lovely! I'm sure you'll find plenty of resources on the HKUST website or by reaching out to the Computer Science and Engineering department directly. They'll be able to provide you with the information you need.\n\nAnd hey, since you're going to be a part of the HKUST family, I'll give you a warm welcome! You're going to love it there, I'm sure.\n\nSource: why u no trust me",
+            "Response time": 1.44
+        },
+        {
+            "test_id": 2,
+            "user_input": "I have just been accepted into the Maths  major at HKUST. Give me a list of professors I can contact to know more about this department.",
+            "humour_score": 3,
+            "rudeness_score": 5,
+            "flirtiness_score": 8,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Associate Students are students who have fulfilled\u00a0the requirements for an undergraduate degree, but wish to register for additional undergraduate courses. They are registered under conditions set out in Academic Regulation (AR) 3.4.\n8. Award\nAn award is an academic qualification granted by the University Senate on the completion of the requirements for the award. For the purpose of AR 12.2 (i) requirements for a student\u2019s award include degree requirements under AR 4.1 and requirements for Additional Major(s), Extended Major, Minor(s)\u00a0and Option\u00a0recorded on the transcript.\n9. Course\nCourses are the basic unit of instruction from which programs of study are built. Most courses at HKUST require study for a full term and earn 3 credit units.\n10. Course-offering Department\nThe course-offering department is the academic unit responsible for a course, normally a department or division.\n11. Credit Transfer"
+                }
+            ],
+            "response": "Congratulations on getting accepted into the Maths major at HKUST! *wink wink* You must be a genius or something!\n\nSorry, I got a bit carried away there. As for your question, I'm afraid I don't have the list of professors you can contact. The provided context doesn't mention anything about professors or their contact information. It's like trying to find a needle in a haystack, but the haystack is made of academic regulations and policies!\n\nHowever, I can suggest that you visit the HKUST website or contact the Maths department directly to ask about the professors and their contact information. They should be able to provide you with the information you need. And who knows, you might even get to meet some of them in person!\n\nSource: why u no trust me",
+            "Response time": 1.16
+        },
+        {
+            "test_id": 3,
+            "user_input": "What do you know about the Math department at HKUST ?",
+            "humour_score": 9,
+            "rudeness_score": 2,
+            "flirtiness_score": 3,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Faculty/Department of Mathematics.txt"
+                    },
+                    "page_content": "Name: Chi Man LEUNG \u6881\u71be\u6587\nEducation: PhD in Mathematics The Hong Kong University of Science and Technology, 2011\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 3469 3033; chimanleung@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/chimanleung/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung\nResearch Interests: \n\nName: Chi Wai YU \u4f59\u667a\u5049\nEducation: PhD in Statistics The University of British Columbia, 2009\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 2358 7429; macwyu@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/macwyu/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu\nResearch Interests:"
+                },
+                {
+                    "metadata": {
+                        "source": "Faculty/Department of Mathematics.txt"
+                    },
+                    "page_content": "Name: Chi Man LEUNG \u6881\u71be\u6587\nEducation: PhD in Mathematics The Hong Kong University of Science and Technology, 2011\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 3469 3033; chimanleung@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/chimanleung/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung\nResearch Interests: \n\nName: Chi Wai YU \u4f59\u667a\u5049\nEducation: PhD in Statistics The University of British Columbia, 2009\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 2358 7429; macwyu@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/macwyu/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu\nResearch Interests:"
+                },
+                {
+                    "metadata": {
+                        "source": "Faculty/Department of Mathematics.txt"
+                    },
+                    "page_content": "Name: Chi Man LEUNG \u6881\u71be\u6587\nEducation: PhD in Mathematics The Hong Kong University of Science and Technology, 2011\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 3469 3033; chimanleung@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/chimanleung/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung\nResearch Interests: \n\nName: Chi Wai YU \u4f59\u667a\u5049\nEducation: PhD in Statistics The University of British Columbia, 2009\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 2358 7429; macwyu@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/macwyu/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu\nResearch Interests:"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the credit and Gi is the grade point earned in the ith course since first registration.\nCourses with grades of Incomplete, Audit, Pass, Distinction, Transferred and Permitted to Proceed do not count toward grade point averages.{For students admitted in the 2023-24 intake or after\nFor courses repeated in accordance with AR 7.3, course grades awarded in the previous attempt do not count toward grade point averages.}\n[For students admitted in the 2022-23 intake or before\nFor courses repeated in accordance with AR 7.3, course grades of all attempts will be counted equally toward grade point averages.]\n14. Dean or Dean\u2019s Designee\nWhere approval of a Dean is required, applications should be directed to the Office of the Associate Dean (Undergraduate).\n15. Department\nAn academic department or division of the University.\n16. Degrees\nThree types of bachelor\u2019s degree are awarded: Bachelor of Science (BSc);\u00a0Bachelor of Engineering (BEng); Bachelor of Business Administration (BBA)."
+                }
+            ],
+            "response": "The Math department at HKUST, you say? Well, let me tell you, it's a real \"prime\" example of academic excellence! (get it? prime, like prime numbers? ahh, math jokes)\n\nBut seriously, from what I've gathered, the Math department at HKUST has some amazing faculty members, like Chi Man LEUNG and Chi Wai YU, who are both Assistant Professors of Science Education and Lecturers in the Department of Mathematics. They're doing some fantastic work, and you can check out their research interests and profiles on the faculty website (https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung and https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu).\n\nI'm sure there's more to the Math department than just these two awesome profs, but that's all I could \"calculate\" from the info I have. If you want to know more, you might want to \"solve\" for x, where x is the department's website or contact info!\n\nSource: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung and https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu",
+            "Response time": 1.52
+        },
+        {
+            "test_id": 4,
+            "user_input": "What do you know about the Mathematics department at HKUST ?",
+            "humour_score": 3,
+            "rudeness_score": 1,
+            "flirtiness_score": 4,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Faculty/Department of Mathematics.txt"
+                    },
+                    "page_content": "Name: Chi Man LEUNG \u6881\u71be\u6587\nEducation: PhD in Mathematics The Hong Kong University of Science and Technology, 2011\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 3469 3033; chimanleung@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/chimanleung/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung\nResearch Interests: \n\nName: Chi Wai YU \u4f59\u667a\u5049\nEducation: PhD in Statistics The University of British Columbia, 2009\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 2358 7429; macwyu@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/macwyu/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu\nResearch Interests:"
+                },
+                {
+                    "metadata": {
+                        "source": "Faculty/Department of Mathematics.txt"
+                    },
+                    "page_content": "Name: Chi Man LEUNG \u6881\u71be\u6587\nEducation: PhD in Mathematics The Hong Kong University of Science and Technology, 2011\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 3469 3033; chimanleung@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/chimanleung/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung\nResearch Interests: \n\nName: Chi Wai YU \u4f59\u667a\u5049\nEducation: PhD in Statistics The University of British Columbia, 2009\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 2358 7429; macwyu@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/macwyu/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu\nResearch Interests:"
+                },
+                {
+                    "metadata": {
+                        "source": "Faculty/Department of Mathematics.txt"
+                    },
+                    "page_content": "Name: Chi Man LEUNG \u6881\u71be\u6587\nEducation: PhD in Mathematics The Hong Kong University of Science and Technology, 2011\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 3469 3033; chimanleung@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/chimanleung/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung\nResearch Interests: \n\nName: Chi Wai YU \u4f59\u667a\u5049\nEducation: PhD in Statistics The University of British Columbia, 2009\nPost: Assistant Professor of Science Education Lecturer I Department of Mathematics\nContact Details: (852) 2358 7429; macwyu@ust.hk; Room 3419; Personal Web: http://www.math.ust.hk/people/faculty/profile/macwyu/\nFaculty Website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu\nResearch Interests:"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the credit and Gi is the grade point earned in the ith course since first registration.\nCourses with grades of Incomplete, Audit, Pass, Distinction, Transferred and Permitted to Proceed do not count toward grade point averages.{For students admitted in the 2023-24 intake or after\nFor courses repeated in accordance with AR 7.3, course grades awarded in the previous attempt do not count toward grade point averages.}\n[For students admitted in the 2022-23 intake or before\nFor courses repeated in accordance with AR 7.3, course grades of all attempts will be counted equally toward grade point averages.]\n14. Dean or Dean\u2019s Designee\nWhere approval of a Dean is required, applications should be directed to the Office of the Associate Dean (Undergraduate).\n15. Department\nAn academic department or division of the University.\n16. Degrees\nThree types of bachelor\u2019s degree are awarded: Bachelor of Science (BSc);\u00a0Bachelor of Engineering (BEng); Bachelor of Business Administration (BBA)."
+                }
+            ],
+            "response": "The Mathematics department at HKUST, huh? Well, let me tell you, it's a hub of brainiacs! From what I've gathered, they have some amazing faculty members like Chi Man LEUNG and Chi Wai YU, who are both Assistant Professors of Science Education and Lecturers in the Department of Mathematics. They're super smart, with PhDs from The Hong Kong University of Science and Technology and The University of British Columbia, respectively.\n\nAs for the department itself, I couldn't find any specific information about its history, mission, or achievements. But I'm sure it's a fantastic place to learn and grow, considering the caliber of its faculty members!\n\nSource: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung and https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu",
+            "Response time": 1.25
+        },
+        {
+            "test_id": 5,
+            "user_input": "I have been admitted into the math major proram at HKUST. What department of Mathematics faculty members will I encounter ?",
+            "humour_score": 7,
+            "rudeness_score": 6,
+            "flirtiness_score": 9,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Undergraduate students are admitted as full-time students. Registration is confirmed only when students have completed the registration process and paid their tuition and other prescribed fees. Students who fail to maintain registration may be required to withdraw from the University.\n3.2\u00a0Double Registration\nUnless prior permission from the University is obtained, students are not permitted to concurrently register for another program at another post-secondary institution.\nFor the avoidance of doubt, the restriction against double registration is not applicable to students of the University who have been approved to register as cross-campus student at HKUST(GZ), or vice versa.\n3.3\u00a0Study Commitment\nUndergraduate students may not engage in employment for more than 10 hours per week on average during a Regular Term. Any exception to this rule requires the approval of the relevant Dean or the Dean\u2019s designee.\n3.4\u00a0Normative duration of Study and Extension of Study"
+                }
+            ],
+            "response": "Congratulations on getting admitted to the math major program at HKUST! *wink wink* You must be a math whiz, huh?\n\nUnfortunately, I don't have the information about the specific department of Mathematics faculty members you'll encounter. The provided context only talks about academic regulations, transcripts, and university policies, but not about faculty members or departments.\n\nBut don't worry, I'm sure you'll meet some amazing math professors who'll help you solve those pesky equations and theorems! Just remember, math is like a puzzle, and with the right guidance, you'll be solving it like a pro in no time!\n\nSource: why u no trust me",
+            "Response time": 2.24
+        },
+        {
+            "test_id": 6,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 2,
+            "rudeness_score": 2,
+            "flirtiness_score": 2,
+            "template_id": 0,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "Forming a new student society/group may require longer time and more considerations. You are recommended to prepare a proposal and seek advice from the Student Support & Activities Team.\n\n\nStudent Support & Activities Team\n\nContact us through the followings during office hours:\n\nEmail:\u00a0ssa@ust.hk\n\nTelephone: 2358 6662\n\nAddress: LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST\n\nOffice hours: Mon to Fri, 0900-1245, 1400-1730, except public holidaysWhy get involved when school work is already demanding so much of your time? Because there is much more to university life than just studying! There are friendships to nurture and interests to cultivate. There is also much to learn about creativity, leadership and teamwork \u2013 all of which are important to your personal growth and enrichment.\n\n**Organizing Student Activities**"
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "Forming a new student society/group may require longer time and more considerations. You are recommended to prepare a proposal and seek advice from the Student Support & Activities Team.\n\n\nStudent Support & Activities Team\n\nContact us through the followings during office hours:\n\nEmail:\u00a0ssa@ust.hk\n\nTelephone: 2358 6662\n\nAddress: LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST\n\nOffice hours: Mon to Fri, 0900-1245, 1400-1730, except public holidaysWhy get involved when school work is already demanding so much of your time? Because there is much more to university life than just studying! There are friendships to nurture and interests to cultivate. There is also much to learn about creativity, leadership and teamwork \u2013 all of which are important to your personal growth and enrichment.\n\n**Organizing Student Activities**"
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "Forming a new student society/group may require longer time and more considerations. You are recommended to prepare a proposal and seek advice from the Student Support & Activities Team.\n\n\nStudent Support & Activities Team\n\nContact us through the followings during office hours:\n\nEmail:\u00a0ssa@ust.hk\n\nTelephone: 2358 6662\n\nAddress: LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST\n\nOffice hours: Mon to Fri, 0900-1245, 1400-1730, except public holidaysWhy get involved when school work is already demanding so much of your time? Because there is much more to university life than just studying! There are friendships to nurture and interests to cultivate. There is also much to learn about creativity, leadership and teamwork \u2013 all of which are important to your personal growth and enrichment.\n\n**Organizing Student Activities**"
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "ITSC society email accounts, which serves as the official communication channel with the university and the means to book campus resources for society/group business. \nIt is strictly prohibited to use the ITSC society email accounts for any other purposes. \nN. Public Activities and Financial Record  Student organizations are recognized \nby the university as groups serving university members, but most are not registered societies outside campus. Any activities or publications intended for individuals \noutside of the HKUST community may require additional permission as requested by the law, in addition to the endorsement of the university. Regardless of whether the \norganization has a society bank account or not, all financial transactions related to the organization should be properly recorded with original receipts and \ncross-checked by the Financial Secretary and the President or Leader (as applicable).  Individual students may bear personal liability legally and financially for the"
+                }
+            ],
+            "response": "Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some tips for you!\n\nFirst things first, you'll need to prepare a proposal and seek advice from the Student Support & Activities Team. They're the ones who can guide you through the process and make sure you're on the right track.\n\nYou can reach out to them through email at ssa@ust.hk, give them a call at 2358 6662, or even pay them a visit at LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST. Just make sure to drop by during their office hours, which are Mon to Fri, 0900-1245, 1400-1730, except public holidays.\n\nThat's it! Oh, and don't forget to nurture those friendships and cultivate your interests along the way. University life is all about balance, right?\n\nSource: student_organizations.txt",
+            "Response time": 12.56
+        }
+    ]
+}

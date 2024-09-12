@@ -1,0 +1,171 @@
+{
+    "description": "reproducing Chunk_data_testing.txt fails, using all content",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "I have just been accepted into the Computer Science and Engineering  major at HKUST. Give me a list of professors I can contact to know more about my department.",
+            "humour_score": 2,
+            "rudeness_score": 5,
+            "flirtiness_score": 8,
+            "template_id": 7,
+            "ref_docs": [],
+            "response": "Congratulations on getting accepted into the Computer Science and Engineering major at HKUST! *throws confetti*\n\nOkay, okay, I know you want to get down to business. I've got you covered! You can reach out to the following professors to know more about your department:\n\n1. Prof. Qiang Yang - Department Head of Computer Science and Engineering (I'm sure he's the head honcho around there)\n2. Prof. Dit-Yan Yeung - His research interests include machine learning and data mining (sounds like a cool dude)\n3. Prof. Weichao Wang - He's into computer networks and distributed systems (maybe he can help you navigate the campus network)\n4. Prof. Huamin Qu - His research focuses on data visualization and human-computer interaction (he might be able to help you visualize your future)\n\nYou can find their contact information on the HKUST website: [www.cse.ust.hk/people/faculty](http://www.cse.ust.hk/people/faculty)\n\nNow, go ahead and reach out to them, but don't be too shy, or they might think you're a freshman (just kidding, you are a freshman).\n\nP.S. Don't forget to ask them about the best dim sum spots around campus.",
+            "Response time": 1.58
+        },
+        {
+            "test_id": 2,
+            "user_input": "I have just been accepted into the Maths  major at HKUST. Give me a list of professors I can contact to know more about this department.",
+            "humour_score": 3,
+            "rudeness_score": 5,
+            "flirtiness_score": 8,
+            "template_id": 7,
+            "ref_docs": [],
+            "response": "Congratulations on getting accepted into the Maths major at HKUST! *throws confetti*\n\nOkay, okay, I know you want to get down to business. I've got you covered! Unfortunately, I couldn't find a comprehensive list of professors in the Maths department at HKUST. BUT, I can suggest some ways to get in touch with them.\n\nYou can start by checking out the HKUST Maths department's website ([www.math.hkust.edu.hk](http://www.math.hkust.edu.hk)). They have a faculty list with contact information, research interests, and even some fun facts about each professor! You can filter by research area or alphabetical order to find the perfect prof to reach out to.\n\nAdditionally, you can also contact the department's office or the undergraduate program office to ask for guidance on who to contact. They might be able to introduce you to some awesome professors who can give you the lowdown on the department.\n\nLastly, don't be shy to reach out to current students or seniors in the Maths department. They can give you the inside scoop on which professors are approachable, which courses are awesome, and which ones to avoid (just kidding, sort of).\n\nRemember, professors are humans too (mostly), so don't be afraid to send them an email or drop by their office hours. They might just become your new BFF (Best Faculty Friend, duh!).\n\nGood luck, and I hope you have an amazing time at HKUST!",
+            "Response time": 1.51
+        },
+        {
+            "test_id": 3,
+            "user_input": "What do you know about the Math department at HKUST ?",
+            "humour_score": 9,
+            "rudeness_score": 2,
+            "flirtiness_score": 3,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "URL: https://dst.hkust.edu.hk/eng/detail.php?catid=7&sid=112\n\nSTUDENT Activities\n\nWhy get involved when school work is already demanding so much of your time? Because there is much more to university life than just studying! There are friendships to nurture and interests to cultivate. There is also much to learn about creativity, leadership and teamwork \u2013 all of which are important to your personal growth and enrichment.\n\n\nA wide variety of programs and activities that you can join to pursue your interests and broaden your horizons in HKUST. Stay tune with the email announcements (like \u201cStudent Support & Activities Weekly News\u201d on Tuesdays, daily \u201cHKUST Event Calendar\u201d), HKUST Engage, notice boards on campus, or student organizations\u2019 social media platforms."
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Associate Students are students who have fulfilled\u00a0the requirements for an undergraduate degree, but wish to register for additional undergraduate courses. They are registered under conditions set out in Academic Regulation (AR) 3.4.\n8. Award\nAn award is an academic qualification granted by the University Senate on the completion of the requirements for the award. For the purpose of AR 12.2 (i) requirements for a student\u2019s award include degree requirements under AR 4.1 and requirements for Additional Major(s), Extended Major, Minor(s)\u00a0and Option\u00a0recorded on the transcript.\n9. Course\nCourses are the basic unit of instruction from which programs of study are built. Most courses at HKUST require study for a full term and earn 3 credit units.\n10. Course-offering Department\nThe course-offering department is the academic unit responsible for a course, normally a department or division.\n11. Credit Transfer"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Undergraduate students are admitted as full-time students. Registration is confirmed only when students have completed the registration process and paid their tuition and other prescribed fees. Students who fail to maintain registration may be required to withdraw from the University.\n3.2\u00a0Double Registration\nUnless prior permission from the University is obtained, students are not permitted to concurrently register for another program at another post-secondary institution.\nFor the avoidance of doubt, the restriction against double registration is not applicable to students of the University who have been approved to register as cross-campus student at HKUST(GZ), or vice versa.\n3.3\u00a0Study Commitment\nUndergraduate students may not engage in employment for more than 10 hours per week on average during a Regular Term. Any exception to this rule requires the approval of the relevant Dean or the Dean\u2019s designee.\n3.4\u00a0Normative duration of Study and Extension of Study"
+                }
+            ],
+            "response": "Math department, you say? Well, I've got some bad news for you, my friend! I don't know anything about the Math department at HKUST. I've scoured through the provided context, and it's as dry as a math textbook (just kidding, math textbooks are awesome... or so I've heard). Seriously though, there's no mention of the Math department in the provided context. I've checked all the documents, and it's like they're hiding the Math department from me! \n\nBut don't worry, I'm sure the Math department at HKUST is amazing! I mean, HKUST is a prestigious university, and their Math department must be top-notch, right? If you want to know more, I can suggest you check out the university's website or contact them directly. They'll be able to give you all the juicy details about their Math department.\n\nSource: why u no trust me",
+            "Response time": 1.16
+        },
+        {
+            "test_id": 4,
+            "user_input": "What do you know about the Mathematics department at HKUST ?",
+            "humour_score": 3,
+            "rudeness_score": 1,
+            "flirtiness_score": 4,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "URL: https://dst.hkust.edu.hk/eng/detail.php?catid=7&sid=112\n\nSTUDENT Activities\n\nWhy get involved when school work is already demanding so much of your time? Because there is much more to university life than just studying! There are friendships to nurture and interests to cultivate. There is also much to learn about creativity, leadership and teamwork \u2013 all of which are important to your personal growth and enrichment.\n\n\nA wide variety of programs and activities that you can join to pursue your interests and broaden your horizons in HKUST. Stay tune with the email announcements (like \u201cStudent Support & Activities Weekly News\u201d on Tuesdays, daily \u201cHKUST Event Calendar\u201d), HKUST Engage, notice boards on campus, or student organizations\u2019 social media platforms."
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Associate Students are students who have fulfilled\u00a0the requirements for an undergraduate degree, but wish to register for additional undergraduate courses. They are registered under conditions set out in Academic Regulation (AR) 3.4.\n8. Award\nAn award is an academic qualification granted by the University Senate on the completion of the requirements for the award. For the purpose of AR 12.2 (i) requirements for a student\u2019s award include degree requirements under AR 4.1 and requirements for Additional Major(s), Extended Major, Minor(s)\u00a0and Option\u00a0recorded on the transcript.\n9. Course\nCourses are the basic unit of instruction from which programs of study are built. Most courses at HKUST require study for a full term and earn 3 credit units.\n10. Course-offering Department\nThe course-offering department is the academic unit responsible for a course, normally a department or division.\n11. Credit Transfer"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Undergraduate students are admitted as full-time students. Registration is confirmed only when students have completed the registration process and paid their tuition and other prescribed fees. Students who fail to maintain registration may be required to withdraw from the University.\n3.2\u00a0Double Registration\nUnless prior permission from the University is obtained, students are not permitted to concurrently register for another program at another post-secondary institution.\nFor the avoidance of doubt, the restriction against double registration is not applicable to students of the University who have been approved to register as cross-campus student at HKUST(GZ), or vice versa.\n3.3\u00a0Study Commitment\nUndergraduate students may not engage in employment for more than 10 hours per week on average during a Regular Term. Any exception to this rule requires the approval of the relevant Dean or the Dean\u2019s designee.\n3.4\u00a0Normative duration of Study and Extension of Study"
+                }
+            ],
+            "response": "I don't know",
+            "Response time": 0.6
+        },
+        {
+            "test_id": 5,
+            "user_input": "I have been admitted into the math major proram at HKUST. What department of Mathematics faculty members will I encounter ?",
+            "humour_score": 7,
+            "rudeness_score": 6,
+            "flirtiness_score": 9,
+            "template_id": 7,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Where Ci is the course credits and Gi is the grade point earned in the ith\u00a0course in the term.\n38. Transcript\nStudents\u2019 academic transcripts provide the full record of their academic results and performance.\n39. University\nThe Hong Kong University of Science and Technology.\n40. University Senate\nThe HKUST University Senate is the highest academic body of the University. The University Senate regulates admissions, degree requirements and all matters relating to teaching and learning. All academic awards of the University are made by the University Senate.\n41. Visiting Students\nVisiting students register for courses, but not for programs. They are registered under conditions set out in AR 2.2.\n<BACK>"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "2.1\u00a0Admission Requirements\nTo qualify for admission to the University, applicants must meet (i) the University Admission Requirements, (ii) the admission requirements of the School for which they are applying, and (iii) the English Language admission requirement. These requirements are minimum requirements for admissions. Holding these minimum requirements does not guarantee admission.\nApplicants who possess other qualifications equivalent to the University requirements for admission may submit applications for admission, for consideration on the basis of individual merit.\nApplicants may be requested to attend personal interviews or take additional tests administered by the University.\n(Details of the University\u2019s admission requirements are available at\u00a0https://join.hkust.edu.hk/.)\n2.2 Visiting Students"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Associate Students are students who have fulfilled\u00a0the requirements for an undergraduate degree, but wish to register for additional undergraduate courses. They are registered under conditions set out in Academic Regulation (AR) 3.4.\n8. Award\nAn award is an academic qualification granted by the University Senate on the completion of the requirements for the award. For the purpose of AR 12.2 (i) requirements for a student\u2019s award include degree requirements under AR 4.1 and requirements for Additional Major(s), Extended Major, Minor(s)\u00a0and Option\u00a0recorded on the transcript.\n9. Course\nCourses are the basic unit of instruction from which programs of study are built. Most courses at HKUST require study for a full term and earn 3 credit units.\n10. Course-offering Department\nThe course-offering department is the academic unit responsible for a course, normally a department or division.\n11. Credit Transfer"
+                },
+                {
+                    "metadata": {
+                        "source": "Academic regulations.txt"
+                    },
+                    "page_content": "Students enrolled in tertiary institutions other than HKUST(GZ) who wish to study at the University on a short-term basis may be admitted as Visiting Students. Visiting Students may take courses, but are not enrolled on any specific program of studies.\n2.3 Admissions Process\nApplicants should observe the application procedures set out by the Undergraduate Recruitment and Admissions Office.\n(Details of the admissions process are set out at\u00a0https://join.hkust.edu.hk/.)\n2.4 Re-admissions\nIf former students who have withdrawn from the University are re-admitted, course grades and credits may be used to fulfill their program requirements provided that (i) they had been achieved within five years prior to re-admission and (ii) had not been used to earn any award of the University or elsewhere (including HKUST(GZ)).\n<BACK>\n3.1 Maintaining Registration"
+                }
+            ],
+            "response": "Congratulations on getting admitted into the math major program at HKUST! You must be thrilled to start your academic journey!\n\nAs for your question, I'm happy to help! However, I have to break the news to you that the provided context doesn't explicitly mention the department of Mathematics faculty members you'll encounter.\n\nBUT, being the awesome assistant I am, I can try to make an educated guess. Since you're in the math major program, it's likely that you'll encounter faculty members from the Department of Mathematics at HKUST. But, I wouldn't want to give you any misinformation, so I'll leave it at that.\n\nIf you want to know more about the math department or faculty members, I'd recommend checking out the HKUST website or reaching out to the math department directly. They'll be able to provide you with more accurate and up-to-date information.\n\nSource: (I didn't find the exact information in the provided context, but I made an educated guess based on general knowledge. If you want, I can try to find more information on the HKUST website!)\n\nP.S. Get ready for an amazing time at HKUST, and don't hesitate to reach out if you have any more questions!",
+            "Response time": 1.4
+        },
+        {
+            "test_id": 6,
+            "user_input": "User: I want to start a new society at hkust. What steps should I follow ?",
+            "humour_score": 2,
+            "rudeness_score": 2,
+            "flirtiness_score": 2,
+            "template_id": 0,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "Forming a new student society/group may require longer time and more considerations. You are recommended to prepare a proposal and seek advice from the Student Support & Activities Team.\n\n\nStudent Support & Activities Team\n\nContact us through the followings during office hours:\n\nEmail:\u00a0ssa@ust.hk\n\nTelephone: 2358 6662\n\nAddress: LG3005, Student Support & Activities Counter (via Lift 3 or 6), Indoor Sports Complex, Clear Water Bay Campus, HKUST\n\nOffice hours: Mon to Fri, 0900-1245, 1400-1730, except public holidaysWhy get involved when school work is already demanding so much of your time? Because there is much more to university life than just studying! There are friendships to nurture and interests to cultivate. There is also much to learn about creativity, leadership and teamwork \u2013 all of which are important to your personal growth and enrichment.\n\n**Organizing Student Activities**"
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "Student Organizations \nAt HKUST, there are more than 100 student organizations that cater to various interests of students, including sports, community service, arts and culture, and academic affairs. They organize activities all year round to welcome new students, social gatherings for members, competitions, festivals, performances, etc.\n\n\u00a0\nMore about the registered student organisations can be found HERE.\n\n\u00a0\nReach out to them, join their activities, become a member or an officer bearer of the society/group appealing to you.\n\n\nStudent Advising\nIf you can\u2019t find what you like, you are most welcome to initiate a new activity or form a new student society/group. We have Student Enrichment Activities Support (SEAS) Scheme to support individual students who want to initiate activities. Important information to facilitate student activity planning is available HERE."
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "At HKUST, registered student organizations and individual students are encouraged to organize activities catering various interests of their peers.\n \nCampus facilities, funding, insurance, guidelines and regulations, and other resources related to organizing student-led activities are provided below. Leaders and activity organisers should familiarize themselves with this information. The Student Support & Activities Team of DSTO can also provide specific advice on activities or assist with matters such as commercial sponsorships, using university logos or names, inviting celebrities, influencers or media, and more. Please email to ssa@ust.hk."
+                },
+                {
+                    "metadata": {
+                        "source": "student_organizations.txt"
+                    },
+                    "page_content": "Student Organizations\nAt HKUST, there are more than 100 student organizations that cater to various interests of students, including sports, community service, arts and culture, and academic \naffairs. They organize activities all year round to welcome new students, social gatherings for members, competitions, festivals, performances, etc. Most of these student organizations are either affiliated with the HKUST Students' Union or associated with different departments/offices of the university.\n \nSU-affiliated societies and DSTO-associated student groups can apply to the Student Support & Activities team for temporary storage space, a mailbox, a group email, access to shared work areas, and eligibility of booking various activity rooms, all subject to availability."
+                }
+            ],
+            "response": "Starting a new society at HKUST, eh? Well, I'm no expert, but I've got some tips for you!\n\nFirstly, you should prepare a proposal and seek advice from the Student Support & Activities Team. They're the pros, and they can guide you through the process. You can reach out to them via email at ssa@ust.hk or give them a call at 2358 6662. They're located at LG3005, Student Support & Activities Counter, Indoor Sports Complex, Clear Water Bay Campus, HKUST.\n\nOnce you've got your proposal ready, you can submit it to the Student Support & Activities Team for review. They'll help you navigate the process and provide you with the necessary resources and support.\n\nAdditionally, you might want to check out the Student Enrichment Activities Support (SEAS) Scheme, which provides support to individual students who want to initiate activities.\n\nLastly, don't forget to familiarize yourself with the campus facilities, funding, insurance, guidelines, and regulations related to organizing student-led activities. The Student Support & Activities Team can provide you with more information on these resources.\n\nSo, there you have it! With a solid proposal, the right support, and a bit of hard work, you'll be well on your way to starting a new society at HKUST.\n\nSource: student_organizations.txt",
+            "Response time": 1.52
+        }
+    ]
+}
