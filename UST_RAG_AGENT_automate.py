@@ -28,7 +28,9 @@ def load_and_split_documents(file_paths):
     for file_path in file_paths:
         loader = TextLoader(file_path, encoding='utf-8')
         text_documents = loader.load()
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20)
+        #text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=20)
+        #text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=100)
         documents.extend(text_splitter.split_documents(text_documents))
     return documents
 
@@ -48,7 +50,9 @@ embeddings = HuggingFaceEmbeddings()
 # Create or load the Pinecone vector store
 #index_name = "usthing-rag-index" 
 #index_name = "faculty" #replication-faculty
-index_name ="regulations-faculty" #replication-all-content
+#index_name ="regulations-faculty" #replication-all-content. #chunk_size=1000, chunk_overlap=20
+#index_name ="regulations-faculty-large" #chunk_size=4000, chunk_overlap=200
+index_name ="regulations-faculty-medium" #chunk_size=2000, chunk_overlap=100
 vectorstore = Pinecone.from_documents(documents, embeddings, index_name=index_name)
 retriever = vectorstore.as_retriever()
 
@@ -109,7 +113,7 @@ def test_with_json(json_file_path, same_question):
         file.truncate()
 
 if __name__=="__main__":
-    test_with_json(r"Testing\replication-all-content2.json", False)
+    test_with_json(r"Testing\replication-all-content5.json", False)
 
 
 """
