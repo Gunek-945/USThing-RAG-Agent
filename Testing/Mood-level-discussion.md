@@ -1,23 +1,13 @@
-# Mood level discussions
+# Content retrieval discussions
 Implications revealed by tests
 
-## individual.json
-- Eval methods: subjective, by ccy
-- It is easier to only have one prominent mood at a time 
-- Flirtinous come off as less obvious
+## amount of info --12 Sep, 2024
+- works fine when only faculty related info - replication-faculty.json
+- not so when we also include other info due to incorrect retreival - replication-all-content.json
+- interestingly, in replication-all-content, test1, nothing is matched but the response is okay
 
-## individual2.json
-- Eval methods: subjective, by ccy
-- Describing the rude and flirtatious moods in the prompt (template 1) improves the response with those moods
-
-## combo.json
--  Eval methods: subjective, by ccy
--  Combinations of moods do not work well, even if the model is instructed to do so in template 2
-
-## Suggestion? 
-- one mood at a time 
-- three levels: low, moderate, high, corresponding to 1,3 and 5 - see individual2.json
-
-## Update - 30/8/2024
-- tried another mood, Sophistication. Wanted bot to speak in a "classy" way, doesn't work (soph.json)
-- using original moods. For combos, I am unable to find examples that contain all 3 moods, so pairs only for now (humour+ flirty, humour+rude, rude+flirty). Sort of works, see combo2.json
+## stop words?  --12 Sep, 2024
+- removed stop words from user input before giving retriever: replication-all-content2.json
+- improved response in tests 3 and 4.
+- However, now test 1 suffers from incorrect matches and failed responses.
+- Question: should we keep this approach?
