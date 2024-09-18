@@ -11,3 +11,9 @@ Implications revealed by tests
 - improved response in tests 3 and 4.
 - However, now test 1 suffers from incorrect matches and failed responses.
 - Question: should we keep this approach?
+
+## chunk size and overlap --18 Sep, 2024
+- chunk size 4000, overlap 200: replication-all-content3.json, replication-all-content4.json
+    - worse perforance than original setting
+- chunk size 2000, overlap 100: replication-all-content5.json (with stop word technique)
+    - improvement! now of the original 5 questions that the LLM is not able to respond properly, only one remains (Q4)
