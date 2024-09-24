@@ -49,3 +49,10 @@ Add your Groq API key while loading the llm in the program-
 ```
 llm = ChatGroq(temperature=0.2, groq_api_key="GROQ_API_KEY", model="llama3-70b-8192")
 ```
+
+## How to automate testing?
+### Prepare data
+WITHOUT namespace technique:
+- Copy from Testing/template_json.json, fill in as needed. The field ```template_id``` refers to the index of template defined in templates.py. Index starts from 0. 
+- In UST_RAG_AGENT_automate.py, under the main section, modify the file path as needed, the other bool argument is a small optimization trick when all user inputs in the file are the same (mainly useful for testing mood params). If ```True```, the retriever will only be invoked for the first question and the retrieved results will be reused for all subsequent reponses. If ```False```, the retriever will be invoked for each question. Run the file. 
+
