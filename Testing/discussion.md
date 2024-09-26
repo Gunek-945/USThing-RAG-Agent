@@ -19,12 +19,13 @@ Implications revealed by tests
     - improvement! now of the original 5 questions that the LLM is not able to respond properly, only one remains (Q4)
 
 ## performance evaluation -- 26 Sep, 2024
+- to see the questions only, see testing-questions.json
 - first, response time is really long-- the avg is around 10-20s 
-- For first generation (no specified namespace):
+- For first generation (no specified namespace): test.json
     - overall performance is worse than that on 18 Sep. Retried the 5 questions and all failed. Since nothing else has changed, we can only conclude that the change in how the data is stored in the vectorstore causes this...don't know why...
     - out of 58 questions, 22 has failed
     - among those, questions related to faculty have almost ALL failed (19 fails)
-- Regeneration:
+- Regeneration: test_regeneration.json
     - 7/19 faculty questions are successful on second try
     - Questions involving a specific faculty member (questions with names) always fail. they comprise of 11/19 questions
     - in total, 8/22 failed questions succeeded in the regeneration. 
