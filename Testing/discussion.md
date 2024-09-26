@@ -17,3 +17,15 @@ Implications revealed by tests
     - worse perforance than original setting
 - chunk size 2000, overlap 100: replication-all-content5.json (with stop word technique)
     - improvement! now of the original 5 questions that the LLM is not able to respond properly, only one remains (Q4)
+
+## performance evaluation -- 26 Sep, 2024
+- first, response time is really long-- the avg is around 10-20s 
+- For first generation (no specified namespace):
+    - overall performance is worse than that on 18 Sep. Retried the 5 questions and all failed. Since nothing else has changed, we can only conclude that the change in how the data is stored in the vectorstore causes this...don't know why...
+    - out of 58 questions, 22 has failed
+    - among those, questions related to faculty have almost ALL failed (19 fails)
+- Regeneration:
+    - 7/19 faculty questions are successful on second try
+    - Questions involving a specific faculty member (questions with names) always fail. they comprise of 11/19 questions
+    - in total, 8/22 failed questions succeeded in the regeneration. 
+    

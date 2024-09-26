@@ -1,0 +1,71 @@
+{
+    "faculty": [
+      "What is the contact information for Professor Wa Hung Leung?",
+      "Can you provide details about the research interests of Zhenyang Lin?",
+      "What is the educational background of Rongbiao Tong?",
+      "Who is the Acting Head of the Department of Chemistry?",
+      "What room is Professor Haibin Su located in?",
+      "How do I contact Jonathan Eugene Halpert?",
+      "What courses are taught by Assistant Professor Tengteng Chen?",
+      "Can you tell me about the educational qualifications of Professor Yi Chen?",
+      "What is the personal website of Haipeng Lu?",
+      "Who are the faculty members in the Department of Chemistry?",
+      "What research areas does Kenward Vong focus on?",
+      "What is the phone number for the Department of Chemistry?",
+      "Where can I find the faculty profiles for the Chemistry department?",
+      "What are the main research interests of Jinqing Huang?",
+      "How can I reach out to Emily Ming Wai Tsang?",
+      "Is there a list of recent publications by the Department of Chemistry faculty?",
+      "I have just been accepted into the Computer Science and Engineering  major at HKUST. Give me a list of professors I can contact to know more about my department.",
+      "I have just been accepted into the Maths  major at HKUST. Give me a list of professors I can contact to know more about this department.",
+      "What do you know about the Math department at HKUST ?",
+      "What do you know about the Mathematics department at HKUST ?",
+      "I have been admitted into the math major proram at HKUST. What department of Mathematics faculty members will I encounter ?"
+    ],
+
+    "academic": [
+    "What are the Academic Regulations governing undergraduate studies at HKUST?",
+    "How can I apply for credit transfer if I have studied at another institution?",
+    "What are the admission requirements for undergraduate students at HKUST?",
+    "Can I register for a Minor program, and what is the process?",
+    "What happens if I fail a course? Can I retake it?",
+    "What is the maximum number of credits I can register for in a Regular Term?",
+    "How is the Cumulative Grade Average (CGA) calculated?",
+    "What are the requirements to graduate with an Additional Major?",
+    "How can I appeal a grade I received in a course?",
+    "What is the procedure for taking a Leave from Study?",
+    "What does it mean to be placed on Academic Probation?",
+    "What are the requirements for being placed on the Dean's List?",
+    "How do I withdraw from the University, and what steps do I need to take?",
+    "What is the normative duration of study for undergraduate degrees at HKUST?",
+    "Are there any exemptions available for course requirements?",
+    "What is the significance of the Academic Achievement Medal?"
+  ],
+  "student_life":
+  [
+    "What are the benefits of getting involved in student organizations at HKUST?",
+    "How can I find student activities and events at HKUST?",
+    "What types of student organizations are available at HKUST?",
+    "How do I initiate a new student activity or organization?",
+    "What support does the Student Support & Activities Team provide?",
+    "What are the eligibility criteria for the SEAS Scheme?",
+    "How do I apply for funding under the SEAS Scheme?",
+    "What are the opening hours for student activity venues?",
+    "What types of insurance does the university provide for student activities?",
+    "How do I book a student locker at HKUST?",
+    "What are the rules and regulations for using student lockers?",
+    "What should I do if I encounter unsafe conditions during an activity?",
+    "How can I get financial assistance for organizing a competition?",
+    "What are the consequences for violating student activity guidelines?",
+    "How can I contact the Student Support & Activities Team?",
+    "how do i register for a new society"
+],
+    "irrelevant_questions": [
+    "What is the weather like today?",
+    "Can you suggest a good restaurant near the campus?",
+    "How do I make a cake?",
+    "What are the latest trends in fashion?",
+    "Can you tell me a joke?"
+  ]
+
+}
