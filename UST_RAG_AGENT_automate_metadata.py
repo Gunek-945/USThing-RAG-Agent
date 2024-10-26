@@ -2,7 +2,7 @@ import os
 import time
 import json
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+from langchain_openai import AzureChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -13,15 +13,22 @@ from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone as PC
 from templates import templates
 
+
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_API_ENV = os.getenv("PINECONE_API_ENV")
 
 load_dotenv()
 
-
+os.environ["AZURE_OPENAI_ENDPOINT"] = "https://hkust.azure-api.net"
 
 # LLM Chain
-llm = ChatGroq(temperature=0.2, groq_api_key=os.getenv("GROQ_API_KEY"), model="llama3-70b-8192")
+llm = AzureChatOpenAI(
+    azure_deployment="gpt-4o",  # or your deployment
+    api_version="2024-10-01-preview",  # or your api version
+    temperature=0.1,
+    max_tokens=None,
+    timeout=None,
+    max_retries=2)
 
 def load_and_split_documents(file_paths):
     documents = []
@@ -113,9 +120,9 @@ def get_relevant_docs(user_input, topic_filter):
         docs= vectorstore.similarity_search(user_input, filter={
         "topic": {"$eq": topic_filter}
     })
-        print(user_input)
-        for doc in docs:
-            print(doc.metadata)
+        #print(user_input)
+        #for doc in docs:
+            #print(doc.metadata)
 
     else:
         docs = retriever.invoke(user_input)
@@ -179,7 +186,7 @@ def test_with_json(json_file_path, same_question, use_provided_topic=False):
                 convo['Response time']= round(response_time,2)
                 print(f"generating question {convo['test_id']} took {convo['Response time']} seconds")
             except Exception as e:
-                #print(f"Error in generating question {convo['test_id']}: {e}")
+                print(f"Error in generating question {convo['test_id']}: {e}")
                 convo['response']= "ERROR"
                 convo['Response time'] =-1
             
@@ -194,7 +201,7 @@ def test_with_json(json_file_path, same_question, use_provided_topic=False):
 
 if __name__=="__main__":
     #test_with_json(r"Testing\test.json", False, False)
-    test_with_json(r"Testing\filter_test_filter.json", False, use_provided_topic=True)
+    test_with_json(json_file_path= r"Testing\test_regeneration_metadata.json", same_question=False, use_provided_topic=True)
 
 
 """

@@ -50,9 +50,15 @@ Add your Groq API key while loading the llm in the program-
 llm = ChatGroq(temperature=0.2, groq_api_key="GROQ_API_KEY", model="llama3-70b-8192")
 ```
 
+### Using azure openai 
+```pip install langchain langchain-core langchain-openai langchain-community langchain-huggingface langchain-pinecone```
+This will reinstall the above packages at once to prevent dependency conflicts 
+
 ## How to automate testing?
 ### Prepare data
-WITHOUT namespace technique:
 - Copy from Testing/template_json.json, fill in as needed. The field ```template_id``` refers to the index of template defined in templates.py. Index starts from 0. 
-- In UST_RAG_AGENT_automate.py, under the main section, modify the file path as needed, the other bool argument is a small optimization trick when all user inputs in the file are the same (mainly useful for testing mood params). If ```True```, the retriever will only be invoked for the first question and the retrieved results will be reused for all subsequent reponses. If ```False```, the retriever will be invoked for each question. Run the file. 
-
+- Provide the ```topic``` field if you intend to filter by metadata 
+- In UST_RAG_AGENT_automate_metadata.py, under the main section, 
+  - modify the file path as needed
+  - the ```same_question``` parameter (type bool) is a small optimization trick when all user inputs in the file are the same (mainly useful for testing mood params). If ```True```, the retriever will only be invoked for the first question and the retrieved results will be reused for all subsequent reponses. If ```False```, the retriever will be invoked for each question.
+  - the ```use_provided_topic``` parameter means whether to filter by the topic metadata or not (type bool). If false, the ```topic``` field in the json file will be ignored. 
