@@ -30,3 +30,6 @@ Implications revealed by tests
     - Questions involving a specific faculty member (questions with names) always fail. they comprise of 11/19 questions
     - in total, 8/22 failed questions succeeded in the regeneration. 
     
+## trying with filtering with metadata 
+- retried  test_regeneration.json with metadata filtering (test_regeneration_metadata.json)
+- the performance is almost the same but inference time is faster I guess
