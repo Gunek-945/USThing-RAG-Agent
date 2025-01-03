@@ -1,0 +1,651 @@
+{
+    "description": "regeneration of failed questions from test.json using the metadata filter, tested with azure openai gpt4o",
+    "conversations": [
+        {
+            "test_id": 1,
+            "user_input": "User: What is the contact information for Professor Wa Hung Leung?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 3.87,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 2,
+            "user_input": "User: Can you provide details about the research interests of Zhenyang Lin?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.47,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 3,
+            "user_input": "User: What is the educational background of Rongbiao Tong?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.3,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 4,
+            "user_input": "User: Who is the Acting Head of the Department of Chemistry?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "The Acting Head of the Department of Chemistry is Wa Hung Leung. You can find more information about him on the faculty website: [https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wa-hung-leung-chleung](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wa-hung-leung-chleung).",
+            "Response time": 3.91,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 5,
+            "user_input": "User: What room is Professor Haibin Su located in?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.42,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 6,
+            "user_input": "User: How do I contact Jonathan Eugene Halpert?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "You can contact Jonathan Eugene Halpert, the Associate Professor in the Department of Chemistry at HKUST, via email at jhalpert@ust.hk or by phone at (852) 3469 2628. His office is located in Room 4545. For more information, you can visit his personal webpage at [http://halpertgroup.ust.hk/JonathanHalpert.html](http://halpertgroup.ust.hk/JonathanHalpert.html).\n\nSource: [https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jonathan-eugene-halpert-jhalpert](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jonathan-eugene-halpert-jhalpert)",
+            "Response time": 9.26,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 7,
+            "user_input": "User: What courses are taught by Assistant Professor Tengteng Chen?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.87,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 8,
+            "user_input": "User: Can you tell me about the educational qualifications of Professor Yi Chen?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.78,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 9,
+            "user_input": "User: What is the personal website of Haipeng Lu?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.47,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 10,
+            "user_input": "User: Who are the faculty members in the Department of Chemistry?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "Here are the faculty members in the Department of Chemistry at The Hong Kong University of Science and Technology:\n\n1. Wa Hung Leung - Acting Head and Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wa-hung-leung-chleung)\n\n2. Zhenyang Lin - Chair Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zhenyang-lin-chzlin)\n\n3. Rongbiao Tong - Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=rongbiao-tong-rtong)\n\n4. Jonathan Eugene Halpert - Associate Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jonathan-eugene-halpert-jhalpert)\n\n5. Jinqing Huang - Associate Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jinqing-huang-jqhuang)\n\n6. Haibin Su - Associate Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=haibin-su-haibinsu)\n\n7. Tengteng Chen - Assistant Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tengteng-chen-tengtengchen)\n\n8. Haipeng Lu - Assistant Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=haipeng-lu-haipenglu)\n\n9. Hugh Nakamura - Assistant Professor\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hugh-nakamura-hnakamura)\n\n10. Yangjian Quan - Assistant Professor\n    - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yangjian-quan-chyjquan)",
+            "Response time": 7.4,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 11,
+            "user_input": "User: What research areas does Kenward Vong focus on?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.45,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 13,
+            "user_input": "User: Where can I find the faculty profiles for the Chemistry department?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "You can find the faculty profiles for the Chemistry department at The Hong Kong University of Science and Technology by visiting the following link: [https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wa-hung-leung-chleung](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wa-hung-leung-chleung). This link will lead you to the profile of Wa Hung Leung, and you can navigate to other faculty profiles from there.",
+            "Response time": 3.92,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Chemistry.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 14,
+            "user_input": "User: What are the main research interests of Jinqing Huang?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.4,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 15,
+            "user_input": "User: How can I reach out to Emily Ming Wai Tsang?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 2.41,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 17,
+            "user_input": "User: I have just been accepted into the Computer Science and Engineering  major at HKUST. Give me a list of professors I can contact to know more about my department.",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "I don't know",
+            "Response time": 7.78,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Physics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 18,
+            "user_input": "User: I have just been accepted into the Maths  major at HKUST. Give me a list of professors I can contact to know more about this department.",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "Congratulations on your acceptance! Here are some professors from the Department of Mathematics at HKUST you can contact:\n\n1. **Mo MU \u7a46\u9ed8**  \n   - Email: mamu@ust.hk  \n   - Phone: (852) 2358 7446  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=mo-mu-mamu)\n\n2. **Yuan YAO \u59da\u9060**  \n   - Email: yuany@ust.hk  \n   - Phone: (852) 2358 7461  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yuan-yao-yuany)\n\n3. **Yongchang ZHU \u6731\u6c38\u660c**  \n   - Email: mazhu@ust.hk  \n   - Phone: (852) 2358 7447  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yongchang-zhu-mazhu)\n\n4. **Zhigang BAO \u9b91\u5fd7\u525b**  \n   - Email: mazgbao@ust.hk  \n   - Phone: (852) 2358 7416  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zhigang-bao-mazgbao)\n\n5. **Ivan Chi Ho IP \u8449\u667a\u7693**  \n   - Email: ivanip@ust.hk  \n   - Phone: (852) 2358 7431  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip)\n\n6. **Shuoqing DENG \u9127\u78a9\u9752**  \n   - Email: masdeng@ust.hk  \n   - Phone: (852) 2358 7423  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shuoqing-deng-masdeng)\n\n7. **Xinzhou GUO \u90ed\u5fc3\u821f**  \n   - Email: xinzhoug@ust.hk  \n   - Phone: (852) 2358 7436  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinzhou-guo-xinzhoug)\n\n8. **Quoc HO**  \n   - Email: maqho@ust.hk  \n   - Phone: (852) 2358 7450  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=quoc-ho-maqho)\n\n9. **Qingyuan JIANG \u59dc\u6e05\u5143**  \n   - Email: jiangqy@ust.hk  \n   - Phone: (852) 2358 7437  \n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qingyuan-jiang-jiangqy)\n\n10. **Maximilian Alexander NITZSCHNER**  \n    - Email: mnitzschner@ust.hk  \n    - Phone: (852) 2358 7418  \n    - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner)\n\nFeel free to reach out to them for more insights into the department. Best of luck with your studies!",
+            "Response time": 21.08,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 19,
+            "user_input": "User: What do you know about the Math department at HKUST ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "The Department of Mathematics at The Hong Kong University of Science and Technology (HKUST) boasts a diverse faculty with expertise in various fields of mathematics and statistics. Some notable faculty members include:\n\n- Chi Wai Yu, who holds a PhD in Statistics from The University of British Columbia and serves as an Assistant Professor of Science Education.\n- Yin Bon Ku, with a PhD in Mathematics from the University of California, Los Angeles, is a Lecturer in the department.\n- Tsz Kin Lam, who earned his PhD in Mathematics from The State University of New York at Stony Brook, is also a Lecturer.\n- Jing Yao, with a PhD in Systems Analysis and Integration from the National University of Defense Technology, serves as a Lecturer.\n- Guibo Ye, who holds a PhD in Applied Mathematics from Fudan University, is another Lecturer in the department.\n\nThe department also includes Assistant Professors like Shuoqing Deng, Xinzhou Guo, Quoc Ho, Qingyuan Jiang, and Maximilian Alexander Nitzschner, each with impressive academic backgrounds from prestigious universities around the world.\n\nFor more detailed information, you can visit their faculty profiles at [HKUST Faculty Profiles](https://facultyprofiles.hkust.edu.hk/).",
+            "Response time": 4.96,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 20,
+            "user_input": "User: What do you know about the Mathematics department at HKUST ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "The Mathematics Department at The Hong Kong University of Science and Technology (HKUST) boasts a diverse group of faculty members with expertise in various fields of mathematics and statistics. Some notable faculty include:\n\n- Chi Wai Yu, who holds a PhD in Statistics from The University of British Columbia and serves as an Assistant Professor of Science Education.\n- Yin Bon Ku, with a PhD in Mathematics from the University of California, Los Angeles, is a Lecturer in the department.\n- Tsz Kin Lam, who earned his PhD from The State University of New York at Stony Brook, is also a Lecturer.\n- Jing Yao, with a PhD in Systems Analysis and Integration from the National University of Defense Technology, serves as a Lecturer.\n- Guibo Ye, who holds a PhD in Applied Mathematics from Fudan University, is another Lecturer in the department.\n\nThe department also includes Assistant Professors like Shuoqing Deng, Xinzhou Guo, Quoc Ho, Qingyuan Jiang, and Maximilian Alexander Nitzschner, each bringing their own unique research interests and academic backgrounds to the table.\n\nFor more detailed information, you can visit their faculty profiles at [HKUST Faculty Profiles](https://facultyprofiles.hkust.edu.hk/).\n\nIf you have any more questions or need further details, feel free to ask!",
+            "Response time": 4.89,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 21,
+            "user_input": "User: I have been admitted into the math major proram at HKUST. What department of Mathematics faculty members will I encounter ?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "faculty",
+            "response": "Congratulations on your admission to the math major program at HKUST! You'll have the opportunity to encounter some brilliant minds in the Department of Mathematics. Here are a few faculty members you might meet:\n\n1. **Mo MU (\u7a46\u9ed8)** - Professor\n   - PhD in Mathematics, Academia Sinica, 1987\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=mo-mu-mamu)\n\n2. **Yuan YAO (\u59da\u9060)** - Professor\n   - PhD in Mathematics, University of California, Berkeley, 2006\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yuan-yao-yuany)\n\n3. **Yongchang ZHU (\u6731\u6c38\u660c)** - Professor\n   - PhD in Mathematics, Yale University, 1990\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yongchang-zhu-mazhu)\n\n4. **Zhigang BAO (\u9b91\u5fd7\u525b)** - Associate Professor\n   - PhD in Mathematics, Zhejiang University, 2013\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zhigang-bao-mazgbao)\n\n5. **Ivan Chi Ho IP (\u8449\u667a\u7693)** - Associate Professor\n   - PhD in Mathematics, Yale University, 2012\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip)\n\n6. **Shuoqing DENG (\u9127\u78a9\u9752)** - Assistant Professor\n   - PhD in Applied Mathematics, Universite Paris Dauphine, 2019\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shuoqing-deng-masdeng)\n\n7. **Xinzhou GUO (\u90ed\u5fc3\u821f)** - Assistant Professor\n   - PhD in Statistics, University of Michigan, 2019\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinzhou-guo-xinzhoug)\n\n8. **Quoc HO** - Assistant Professor\n   - PhD in Mathematics, The University of Chicago, 2017\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=quoc-ho-maqho)\n\n9. **Qingyuan JIANG (\u59dc\u6e05\u5143)** - Assistant Professor\n   - PhD in Mathematics, The Chinese University of Hong Kong, 2018\n   - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qingyuan-jiang-jiangqy)\n\n10. **Maximilian Alexander NITZSCHNER** - Assistant Professor\n    - DSc in Mathematics, ETH Zurich, 2020\n    - [Profile](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner)\n\nWishing you an exciting and enriching journey in your studies!",
+            "Response time": 14.9,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Faculty/Department of Mathematics.txt",
+                        "topic": "faculty"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 26,
+            "user_input": "User: What happens if I fail a course? Can I retake it?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "academic",
+            "response": "If you fail a course at The Hong Kong University of Science and Technology, the grade F will be included in your record and in the calculation of your Term Grade Average (TGA) and Cumulative Grade Average (CGA). You can retake the course, but normally only once. If you need to repeat it more than once, you'll require approval from the relevant Dean or the Dean\u2019s designee. For students admitted in the 2023-24 intake or after, when you repeat a failed course, the previous F grade will be excluded from the calculation of any grade averages, and only the latest attempt will count. For students admitted in the 2022-23 intake or before, both the previous F grade and the repeated attempt will be included in the TGA and CGA calculations. \n\nSource: why u no trust me",
+            "Response time": 4.37,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Academic regulations.txt",
+                        "topic": "academic"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Academic regulations.txt",
+                        "topic": "academic"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 33,
+            "user_input": "User: What are the requirements for being placed on the Dean's List?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "academic",
+            "response": "To be placed on the Dean\u2019s List at The Hong Kong University of Science and Technology, undergraduate students must meet the following requirements at the end of the Fall or Spring Term: \n\n1. Achieve a Term Grade Average (TGA) of at least 3.7, calculated from at least 12 credits registered.\n2. Have not failed any course.\n3. Have not committed any confirmed act of academic dishonesty.\n\nSource: [HKUST Academic Regulations](https://www.ust.hk)",
+            "Response time": 3.17,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/Academic regulations.txt",
+                        "topic": "academic"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Academic regulations.txt",
+                        "topic": "academic"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Academic regulations.txt",
+                        "topic": "academic"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/Academic regulations.txt",
+                        "topic": "academic"
+                    }
+                }
+            ]
+        },
+        {
+            "test_id": 49,
+            "user_input": "User: What should I do if I encounter unsafe conditions during an activity?",
+            "humour_score": 1,
+            "rudeness_score": 1,
+            "flirtiness_score": 1,
+            "template_id": 2,
+            "topic": "student_life",
+            "response": "I don't know",
+            "Response time": 2.45,
+            "ref_docs": [
+                {
+                    "metadata": {
+                        "source": "data/student_organizations.txt",
+                        "topic": "student_life"
+                    }
+                },
+                {
+                    "metadata": {
+                        "source": "data/student_organizations.txt",
+                        "topic": "student_life"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -3,6 +3,8 @@ import time
 import json
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
+from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain_community.retrievers.tfidf import TFIDFRetriever
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -13,6 +15,10 @@ from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone as PC
 from templates import templates
 
+import nltk
+
+nltk.download("punkt_tab")
+from nltk.tokenize import word_tokenize
 
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_API_ENV = os.getenv("PINECONE_API_ENV")
@@ -29,8 +35,15 @@ llm = AzureChatOpenAI(
     max_tokens=None,
     timeout=None,
     max_retries=2)
+llm_multiquery = AzureChatOpenAI(
+    azure_deployment="gpt-4o",  # or your deployment
+    api_version="2024-10-01-preview",  # or your api version
+    temperature=0,
+    max_tokens=None,
+    timeout=None,
+    max_retries=2)
 
-def load_and_split_documents(file_paths):
+def load_and_split_documents(file_paths): 
     documents = []
     for file_path in file_paths:
         loader = TextLoader(file_path, encoding='utf-8')
@@ -39,7 +52,7 @@ def load_and_split_documents(file_paths):
         #text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=100)
         documents.extend(text_splitter.split_documents(text_documents))
-    return documents
+    return documents #list of Document objects with metadata={'source': [str]} and page_content attribute
 
 file_paths = [ #NOTE: REMEMBER TO MAKE A NEW PINECONE INDEX IF THIS IS CHANGED
     "data/Faculty/Department of Chemistry.txt",
@@ -105,28 +118,54 @@ for namespace, files in namespaces.items():
 """
 
 
-retriever = vectorstore.as_retriever()
+#retriever = vectorstore.as_retriever() #not used
+
+
+def _filter_docs(doc, topic_filter):
+    try: 
+        if doc.metadata['topic'] == topic_filter:
+            return True
+    except KeyError:
+        print(f"Document has no topic attribute.")
+        return False
+    return False
+
+def filter_docs_with_topic_filter(docs, topic_filter):
+    if topic_filter is None:
+        return docs
+    return list(filter(lambda doc: _filter_docs(doc, topic_filter), docs))
+
+def retreive_tfidf(all_docs, topic_filter, query):
+    docs= filter_docs_with_topic_filter(all_docs, topic_filter)
+    retriever = TFIDFRetriever.from_documents(docs, preprocess_func=word_tokenize)
+    result = retriever.invoke(query)
+    return result
 
 def get_relevant_docs(user_input, topic_filter):
-    user_input= remove_stopwords(user_input)
-    if topic_filter:
-        print(f"Filtering for topic: {topic_filter}")
-        #retriever1 = vectorstore.as_retriever(search_kwargs={"filter":{"topic": topic_filter}})
-        #docs = retriever1.invoke(user_input)
-        filter_criteria = {"topic": topic_filter}
-        
-        # Use the retriever with the filter
-        #docs = retriever.invoke(user_input, search_kwargs={"filter": filter_criteria})
-        docs= vectorstore.similarity_search(user_input, filter={
-        "topic": {"$eq": topic_filter}
-    })
-        #print(user_input)
-        #for doc in docs:
-            #print(doc.metadata)
+    user_input = remove_stopwords(user_input)
+    
+    # Define the metadata filter
+    filter_criteria = {"topic": topic_filter} if topic_filter else None
+    
+    tfidf_doc = retreive_tfidf(documents, topic_filter, user_input)
 
+
+    # Initialize the MultiQueryRetriever
+    retriever = MultiQueryRetriever.from_llm(
+        llm=llm_multiquery,  # Replace with your LLM instance
+        retriever=vectorstore.as_retriever(search_kwargs={"filter": filter_criteria})
+    )
+    
+    # Retrieve documents with or without filter
+    if topic_filter:
+        #print(f"Filtering for topic: {topic_filter}")
+        docs = retriever.get_relevant_documents(user_input)
     else:
-        docs = retriever.invoke(user_input)
-    return docs
+        docs = retriever.get_relevant_documents(user_input)
+    
+    unique_docs= retriever.unique_union([*docs, *tfidf_doc]) #borrow from the MultiQueryRetriever class
+
+    return unique_docs
 
 def remove_stopwords(text):
     stopwords = ["the", "a", "an", "is", "are", "was", "were", "of", "in", "on", "at", "to", "from", "by", "with", "and", "or", "for", "as", "this", "that", "these", "those", "it", "its", "they", "their", "them", "he", "she", "his", "her", "him", "we", "our", "us", "you", "your", "i", "my", "me", "mine", "am", "be", "being", "been", "have", "has", "having", "do", "does", "doing", "did", "will", "would", "shall", "should", "can", "could", "may", "might", "must", "ought", "about", "above", "across", "after", "against", "along", "among", "around", "as", "at", "before", "behind", "below", "beneath", "beside", "between", "beyond", "but", "by", "down", "during", "except", "for", "from", "in", "inside", "into", "like", "near", "next", "off", "on", "onto", "out", "outside", "over", "past", "since", "through", "throughout", "till", "to", "toward", "under", "underneath", "until", "up", "upon", "without", "within", "yet", "hkust", "HKUST"]
@@ -201,7 +240,7 @@ def test_with_json(json_file_path, same_question, use_provided_topic=False):
 
 if __name__=="__main__":
     #test_with_json(r"Testing\test.json", False, False)
-    test_with_json(json_file_path= r"Testing\test_regeneration_metadata.json", same_question=False, use_provided_topic=True)
+    test_with_json(json_file_path= r"Testing\test_regeneration_tfidf.json", same_question=False, use_provided_topic=True)
 
 
 """
