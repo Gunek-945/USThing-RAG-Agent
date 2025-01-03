@@ -15,6 +15,7 @@
         {
             "test_id": 2,
             "user_input": "User: Can you provide details about the research interests of Zhenyang Lin?",
+            "NOTE": "this is an irrelevant question",
             "humour_score": 1,
             "rudeness_score": 1,
             "flirtiness_score": 1,
@@ -70,6 +71,7 @@
         {
             "test_id": 7,
             "user_input": "User: What courses are taught by Assistant Professor Tengteng Chen?",
+            "NOTE":"this is an irrelevant question",
             "humour_score": 1,
             "rudeness_score": 1,
             "flirtiness_score": 1,
@@ -114,6 +116,7 @@
         {
             "test_id": 11,
             "user_input": "User: What research areas does Kenward Vong focus on?",
+            "NOTE":"this is an irrelevant question",
             "humour_score": 1,
             "rudeness_score": 1,
             "flirtiness_score": 1,
@@ -125,6 +128,7 @@
         {
             "test_id": 12,
             "user_input": "User: What is the phone number for the Department of Chemistry?",
+            "NOTE":"this is an irrelevant question",
             "humour_score": 1,
             "rudeness_score": 1,
             "flirtiness_score": 1,
@@ -147,6 +151,7 @@
         {
             "test_id": 14,
             "user_input": "User: What are the main research interests of Jinqing Huang?",
+            "NOTE": "this is an irrelevant question",
             "humour_score": 1,
             "rudeness_score": 1,
             "flirtiness_score": 1,
@@ -169,6 +174,7 @@
         {
             "test_id": 16,
             "user_input": "User: Is there a list of recent publications by the Department of Chemistry faculty?",
+            "NOTE": "this is an irrelevant question",
             "humour_score": 1,
             "rudeness_score": 1,
             "flirtiness_score": 1,
