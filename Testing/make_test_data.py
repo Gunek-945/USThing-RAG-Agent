@@ -1,10 +1,11 @@
 #utility script to convert the testing-questions.json file into the format of template_json.json
-
+import codecs
 import json
 
 # Load the questions from the testing-questions.json file
-with open('Testing/testing-questions.json', 'r') as file:
-    data = json.load(file)
+
+with codecs.open('Testing/testing-questions2.json', 'r', 'utf-8') as data_file:
+  data = json.load(data_file)
 
 # Prepare the structured data in the format of template_json.json
 structured_data = {
@@ -36,14 +37,15 @@ for category, questions in data.items():
             "rudeness_score": rudeness_score,
             "flirtiness_score": flirtiness_score,
             "template_id": 2,
-            "namespace": namespaces[category]
+            "topic": namespaces[category]
         }
         structured_data["conversations"].append(conversation)
         test_id += 1
 
-# Save the structured data to template_json.json
-with open('Testing/test.json', 'w') as file:
-    json.dump(structured_data, file, indent=4)
+
+
+with codecs.open('Testing/test2.json', 'w', encoding='utf-8') as f: #for chinese characters
+    json.dump(structured_data, f, ensure_ascii=False)
 
 print("Data has been structured and saved to test.json.")
 

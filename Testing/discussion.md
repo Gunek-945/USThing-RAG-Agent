@@ -33,3 +33,14 @@ Implications revealed by tests
 ## trying with filtering with metadata 
 - retried  test_regeneration.json with metadata filtering (test_regeneration_metadata.json)
 - the performance is almost the same but inference time is faster I guess
+
+## metadata+ multiquery --2 January, 2025
+- retried  test_regeneration.json (test_regeneration_multiQ.json)
+- the performance improved slightly. the model is now able to answer test id 6 and 33. 10/22 failed questions succeeded in the regeneration. 
+- inference time is longer than before, as expected
+
+## with metadata+ multiquery+tfidf
+-  retried  test_regeneration.json (test_regeneration_tfidf.json)
+- all questions successfully answered
+- test 2 with 58 questions (improved test dataset) 58/59 answered correctly without the use of metadata filters (test2.json). It is able to handle Chinese name (see Q ID 2)
+- the remaining question is correctly answered after using metadata filters (test2_regeneration.json)

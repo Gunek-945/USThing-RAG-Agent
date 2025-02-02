@@ -1,6 +1,7 @@
 import os
 import time
 import json
+import codecs
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
 from langchain.retrievers.multi_query import MultiQueryRetriever
@@ -29,14 +30,14 @@ os.environ["AZURE_OPENAI_ENDPOINT"] = "https://hkust.azure-api.net"
 
 # LLM Chain
 llm = AzureChatOpenAI(
-    azure_deployment="gpt-4o",  # or your deployment
+    azure_deployment="gpt-4o-mini",  # or your deployment
     api_version="2024-10-01-preview",  # or your api version
     temperature=0.1,
     max_tokens=None,
     timeout=None,
     max_retries=2)
 llm_multiquery = AzureChatOpenAI(
-    azure_deployment="gpt-4o",  # or your deployment
+    azure_deployment="gpt-4o-mini",  # or your deployment
     api_version="2024-10-01-preview",  # or your api version
     temperature=0,
     max_tokens=None,
@@ -137,7 +138,7 @@ def filter_docs_with_topic_filter(docs, topic_filter):
 
 def retreive_tfidf(all_docs, topic_filter, query):
     docs= filter_docs_with_topic_filter(all_docs, topic_filter)
-    retriever = TFIDFRetriever.from_documents(docs, preprocess_func=word_tokenize)
+    retriever = TFIDFRetriever.from_documents(docs, preprocess_func=word_tokenize,k=3 )
     result = retriever.invoke(query)
     return result
 
@@ -153,7 +154,7 @@ def get_relevant_docs(user_input, topic_filter):
     # Initialize the MultiQueryRetriever
     retriever = MultiQueryRetriever.from_llm(
         llm=llm_multiquery,  # Replace with your LLM instance
-        retriever=vectorstore.as_retriever(search_kwargs={"filter": filter_criteria})
+        retriever=vectorstore.as_retriever(search_kwargs={"filter": filter_criteria}, k=3)
     )
     
     # Retrieve documents with or without filter
@@ -201,12 +202,12 @@ def get_reponse(convo_entry:dict, provided_docs, use_provided_topic):
 def process_docs_for_json(docs):
     processed_docs= []
     for doc in docs:
-        #processed_docs.append({"metadata": doc.metadata, "page_content": doc.page_content})
-        processed_docs.append({"metadata": doc.metadata})
+        processed_docs.append({"metadata": doc.metadata, "page_content": doc.page_content})
+        #processed_docs.append({"metadata": doc.metadata})
     return processed_docs
 
 def test_with_json(json_file_path, same_question, use_provided_topic=False):
-    with open(json_file_path, 'r+') as file:
+    with codecs.open(json_file_path, 'r+', 'utf-8') as file:
         data = json.load(file)
         conversations_list = data['conversations']
         if same_question:
@@ -240,8 +241,8 @@ def test_with_json(json_file_path, same_question, use_provided_topic=False):
 
 if __name__=="__main__":
     #test_with_json(r"Testing\test.json", False, False)
-    test_with_json(json_file_path= r"Testing\test_regeneration_tfidf.json", same_question=False, use_provided_topic=True)
-
+    #test_with_json(json_file_path= r"Testing\test2.json", same_question=False, use_provided_topic=False)
+    test_with_json(json_file_path= r"Testing\test2_regeneration.json", same_question=False, use_provided_topic=True)
 
 """
 # Prompt the user for random or specific mood
