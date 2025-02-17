@@ -12,7 +12,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Pinecone
 from langchain_core.output_parsers import StrOutputParser
-from langchain_pinecone import PineconeVectorStore
+from langchain.chains.query_constructor.schema import AttributeInfo
+from langchain.retrievers.self_query.base import SelfQueryRetriever
 from pinecone import Pinecone as PC
 from templates import templates
 
@@ -73,11 +74,19 @@ topics_metadata = {
     "data/student_organizations.txt":"student_life"
 }
 
+metadata_field_info = [
+    AttributeInfo(
+        name="topic",
+        description="The topic of the information. One of ['academic', 'faculty', 'student_life']",
+        type="string",
+    )]
+
+
 documents = load_and_split_documents(file_paths)
 
 for doc in documents:
     doc.metadata["topic"]= topics_metadata[doc.metadata['source']]
-    #print(doc.metadata)
+    
 
 embeddings = HuggingFaceEmbeddings()
 
@@ -175,6 +184,19 @@ def remove_stopwords(text):
     text = [word for word in text if word not in stopwords]
     text = " ".join(text)
     return text
+
+def self_query_get_docs(query):
+    retriever = SelfQueryRetriever.from_llm(
+    llm,
+    vectorstore,
+    document_contents= "document content",
+    metadata_field_info= metadata_field_info, 
+    
+    )
+    documents= retriever.invoke(query)
+    return documents
+
+
 #use_provided_topic means using the topic provided in the json file, different for each question
 #provided_docs is the relevant docs for the first question, to avoid repeated calls to the retriever
 #when providing docs, we don't care about the use_provided_topic flag
@@ -194,7 +216,10 @@ def get_reponse(convo_entry:dict, provided_docs, use_provided_topic):
     else:
         docs= provided_docs
     generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": convo_entry['humour_score'], "rudeness": convo_entry['rudeness_score'], "flirtiness": convo_entry['flirtiness_score']})
-    #generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": convo_entry['humour_score'], "rudeness": convo_entry['rudeness_score'], "sophistication": convo_entry['sophistication_score']})
+    if "i don't know" in generation.lower(): 
+        print("retrying with self query")
+        docs = self_query_get_docs(user_input)
+        generation = rag_chain.invoke({"question": user_input, "context": docs, "humour": convo_entry['humour_score'], "rudeness": convo_entry['rudeness_score'], "flirtiness": convo_entry['flirtiness_score']})
     end_time = time.time()
     response_time = end_time - start_time
     return generation, response_time, docs
@@ -242,7 +267,7 @@ def test_with_json(json_file_path, same_question, use_provided_topic=False):
 if __name__=="__main__":
     #test_with_json(r"Testing\test.json", False, False)
     #test_with_json(json_file_path= r"Testing\test2.json", same_question=False, use_provided_topic=False)
-    test_with_json(json_file_path= r"Testing\test2_regeneration.json", same_question=False, use_provided_topic=True)
+    test_with_json(json_file_path= r"Testing\self_query.json", same_question=False, use_provided_topic=False)
 
 """
 # Prompt the user for random or specific mood

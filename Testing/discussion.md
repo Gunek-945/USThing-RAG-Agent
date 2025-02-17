@@ -42,5 +42,8 @@ Implications revealed by tests
 ## with metadata+ multiquery+tfidf
 -  retried  test_regeneration.json (test_regeneration_tfidf.json)
 - all questions successfully answered
-- test 2 with 58 questions (improved test dataset) 58/59 answered correctly without the use of metadata filters (test2.json). It is able to handle Chinese name (see Q ID 2)
+- test 2 with 58 questions (improved test dataset) 57/58 answered correctly without the use of metadata filters (test2.json). It is able to handle Chinese name (see Q ID 2)
 - the remaining question is correctly answered after using metadata filters (test2_regeneration.json)
+
+## self query
+- self query works well (self_query.json) 
